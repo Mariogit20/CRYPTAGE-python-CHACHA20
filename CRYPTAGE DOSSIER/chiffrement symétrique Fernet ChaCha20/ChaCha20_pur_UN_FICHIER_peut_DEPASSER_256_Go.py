@@ -1,5 +1,6 @@
 import sys
 import os
+import shutil
 from PyQt6.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, 
                              QPushButton, QFileDialog, QLabel, QMessageBox, 
                              QFrame, QSizePolicy, QSpacerItem, QProgressBar)
@@ -49,30 +50,44 @@ class WorkerCryptage(QThread):
             
             try:
                 if self.action == 'chiffrer':
-                    chemin_chiffre = chemin_complet + ".enc"
+                    chemin_final = chemin_complet + ".enc"
+                    chemin_tmp = chemin_final + ".tmp" # Fichier temporaire de sécurité
+                    
                     nonce = os.urandom(16)
                     cipher = Cipher(algorithms.ChaCha20(self.cle, nonce), mode=None)
                     encryptor = cipher.encryptor()
                     
-                    with open(chemin_complet, "rb") as f_in, open(chemin_chiffre, "wb") as f_out:
+                    with open(chemin_complet, "rb") as f_in, open(chemin_tmp, "wb") as f_out:
                         f_out.write(nonce)
                         while True:
                             chunk = f_in.read(self.taille_chunk)
-                            if not chunk: break
+                            if not chunk: 
+                                break
                             f_out.write(encryptor.update(chunk))
+                        f_out.write(encryptor.finalize()) # Clôture cryptographique propre
+                        
+                    # Remplacement atomique et suppression uniquement si le succès est total
+                    os.replace(chemin_tmp, chemin_final)
                     os.remove(chemin_complet)
 
                 elif self.action == 'dechiffrer':
-                    chemin_original = chemin_complet[:-4]
-                    with open(chemin_complet, "rb") as f_in, open(chemin_original, "wb") as f_out:
+                    chemin_final = chemin_complet[:-4]
+                    chemin_tmp = chemin_final + ".tmp" # Fichier temporaire de sécurité
+                    
+                    with open(chemin_complet, "rb") as f_in, open(chemin_tmp, "wb") as f_out:
                         nonce = f_in.read(16)
                         cipher = Cipher(algorithms.ChaCha20(self.cle, nonce), mode=None)
                         decryptor = cipher.decryptor()
                         
                         while True:
                             chunk = f_in.read(self.taille_chunk)
-                            if not chunk: break
+                            if not chunk: 
+                                break
                             f_out.write(decryptor.update(chunk))
+                        f_out.write(decryptor.finalize()) # Clôture cryptographique propre
+                        
+                    # Remplacement atomique et suppression uniquement si le succès est total
+                    os.replace(chemin_tmp, chemin_final)
                     os.remove(chemin_complet)
 
                 fichiers_traites += 1
@@ -80,6 +95,9 @@ class WorkerCryptage(QThread):
             except Exception as e:
                 erreurs += 1
                 print(f"Erreur sur {nom_fichier} : {e}")
+                # Nettoyage du fichier temporaire en cas d'erreur/plantage
+                if 'chemin_tmp' in locals() and os.path.exists(chemin_tmp):
+                    os.remove(chemin_tmp)
 
             # Calcul et envoi du pourcentage de progression
             pourcentage = int(((index + 1) / total_fichiers) * 100)
@@ -95,8 +113,8 @@ class LogicielCryptage(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("SecureFolder - Streaming Edition")
-        self.resize(550, 450) # Légèrement agrandi pour la barre
-        self.setMinimumSize(450, 350)
+        self.resize(550, 480) # Légèrement agrandi pour le nouveau bouton
+        self.setMinimumSize(450, 400)
         
         self.chemin_cible = None
         self.cle = None
@@ -131,16 +149,23 @@ class LogicielCryptage(QWidget):
         self.label_info.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.label_info.setWordWrap(True)
         
-        self.btn_choisir = QPushButton("Parcourir les dossiers...")
+        self.btn_choisir = QPushButton("📂 Parcourir les dossiers...")
         self.btn_choisir.setObjectName("btnChoisir")
         self.btn_choisir.setCursor(Qt.CursorShape.PointingHandCursor)
         self.btn_choisir.clicked.connect(self.choisir_dossier)
+
+        # NOUVEAU : Bouton pour sauvegarder la clé
+        self.btn_sauvegarder_cle = QPushButton("💾 Sauvegarder la clé de sécurité (USB)")
+        self.btn_sauvegarder_cle.setObjectName("btnSauvegarder")
+        self.btn_sauvegarder_cle.setCursor(Qt.CursorShape.PointingHandCursor)
+        self.btn_sauvegarder_cle.clicked.connect(self.sauvegarder_cle)
         
         layout_fichier.addWidget(self.label_info)
         layout_fichier.addWidget(self.btn_choisir, alignment=Qt.AlignmentFlag.AlignCenter)
+        layout_fichier.addWidget(self.btn_sauvegarder_cle, alignment=Qt.AlignmentFlag.AlignCenter)
         layout_principal.addWidget(frame_fichier)
 
-        # --- NOUVEAU : Barre de progression et label d'information en temps réel ---
+        # Barre de progression et label d'information en temps réel
         self.label_progression = QLabel("")
         self.label_progression.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.label_progression.setStyleSheet("font-size: 12px; color: #7f8c8d;")
@@ -151,7 +176,6 @@ class LogicielCryptage(QWidget):
         self.progress_bar.setTextVisible(True)
         self.progress_bar.setFixedHeight(20)
         layout_principal.addWidget(self.progress_bar)
-        # -------------------------------------------------------------------------
 
         layout_principal.addSpacerItem(QSpacerItem(20, 10, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding))
 
@@ -182,12 +206,19 @@ class LogicielCryptage(QWidget):
             QFrame#frameFichier { background-color: #ffffff; border: 2px dashed #bdc3c7; border-radius: 10px; padding: 20px; }
             QLabel { font-size: 14px; color: #7f8c8d; }
             QPushButton { font-size: 14px; font-weight: bold; padding: 10px 20px; border-radius: 6px; border: none; color: white; }
+            
             QPushButton#btnChoisir { background-color: #e74c3c; margin-top: 10px; }
-            QPushButton#btnChoisir:hover { background-color: #2980b9; }
+            QPushButton#btnChoisir:hover { background-color: #c0392b; }
             QPushButton#btnChoisir:pressed { background-color: #922b21; }
+            
+            QPushButton#btnSauvegarder { background-color: #3498db; margin-top: 5px; }
+            QPushButton#btnSauvegarder:hover { background-color: #2980b9; }
+            QPushButton#btnSauvegarder:pressed { background-color: #1f618d; }
+            
             QPushButton#btnAction { background-color: #2ecc71; padding: 12px; font-size: 15px; }
             QPushButton#btnAction:hover { background-color: #27ae60; }
             QPushButton#btnAction:pressed { background-color: #1e8449; }
+            
             QPushButton:disabled { background-color: #bdc3c7; color: #7f8c8d; }
             QProgressBar { border: 1px solid #bdc3c7; border-radius: 5px; text-align: center; color: black; font-weight: bold; background-color: #ecf0f1; }
             QProgressBar::chunk { background-color: #3498db; border-radius: 4px; }
@@ -202,6 +233,26 @@ class LogicielCryptage(QWidget):
         else:
             with open(self.fichier_cle, "rb") as f_cle:
                 self.cle = f_cle.read()
+
+    def sauvegarder_cle(self):
+        """Permet à l'utilisateur de copier sa clé vers une clé USB ou un autre dossier sécurisé."""
+        if not os.path.exists(self.fichier_cle):
+            QMessageBox.warning(self, "Erreur", "La clé n'existe pas encore.")
+            return
+            
+        chemin_destination, _ = QFileDialog.getSaveFileName(
+            self, 
+            "Sauvegarder la clé de chiffrement", 
+            "ma_cle_chacha20_secours.key", 
+            "Fichiers Clé (*.key);;Tous les fichiers (*)"
+        )
+        
+        if chemin_destination:
+            try:
+                shutil.copy2(self.fichier_cle, chemin_destination)
+                QMessageBox.information(self, "Succès", "La clé a été sauvegardée avec succès.\n\nGardez-la précieusement, sans elle vous ne pourrez plus déchiffrer vos fichiers !")
+            except Exception as e:
+                QMessageBox.critical(self, "Erreur", f"Impossible de sauvegarder la clé : {e}")
 
     def choisir_dossier(self):
         chemin = QFileDialog.getExistingDirectory(self, "Sélectionner un dossier")
@@ -218,10 +269,11 @@ class LogicielCryptage(QWidget):
             QMessageBox.warning(self, "Erreur", "Veuillez d'abord choisir un dossier.")
             return
 
-        # On verrouille l'interface
+        # On verrouille l'interface pendant le travail
         self.btn_chiffrer.setEnabled(False)
         self.btn_dechiffrer.setEnabled(False)
         self.btn_choisir.setEnabled(False)
+        self.btn_sauvegarder_cle.setEnabled(False)
         self.progress_bar.setValue(0)
         
         # Création et configuration du Thread
@@ -240,19 +292,22 @@ class LogicielCryptage(QWidget):
         self.btn_chiffrer.setEnabled(True)
         self.btn_dechiffrer.setEnabled(True)
         self.btn_choisir.setEnabled(True)
+        self.btn_sauvegarder_cle.setEnabled(True)
         self.label_progression.setText("Opération terminée.")
         
         # On nettoie le thread
         self.worker.deleteLater()
         
-        QMessageBox.information(self, "Terminé", f"{fichiers_traites} fichiers traités.\n{erreurs} erreurs rencontrées.")
+        if erreurs > 0:
+            QMessageBox.warning(self, "Terminé avec des erreurs", f"{fichiers_traites} fichiers traités avec succès.\n{erreurs} erreurs rencontrées.")
+        else:
+            QMessageBox.information(self, "Terminé", f"Succès total !\n{fichiers_traites} fichiers traités.")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     fenetre = LogicielCryptage()
     fenetre.show()
     sys.exit(app.exec())
-    
     
     
     
