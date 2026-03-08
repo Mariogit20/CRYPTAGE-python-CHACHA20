@@ -1,0 +1,32 @@
+1) OUVRIR dans VISUAL STUDIO CODE VSCode un PREMIER TERMINAL     CTRL J :
+
+(venv) PS D:\PYTHON DJANGO HOPES\github5\DJANGO_REST_FRAMEWORK\API BACKEND> py manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2026 - 10:13:24
+Django version 5.2.7, using settings 'api_camion.settings'
+Starting development server at http://127.0.0.1:8000/     
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[17/Jan/2026 10:13:30] "GET /api/camions/ HTTP/1.1" 200 1844
+[17/Jan/2026 10:13:30] "GET /api/camions/ HTTP/1.1" 200 1844
+[17/Jan/2026 10:13:33] "GET /api/camions/ HTTP/1.1" 200 1844
+[17/Jan/2026 10:13:33] "GET /api/camions/ HTTP/1.1" 200 1844
+[17/Jan/2026 10:13:41] "GET /api/camions/ HTTP/1.1" 200 1844
+[17/Jan/2026 10:13:41] "GET /api/camions/ HTTP/1.1" 200 1844
+
+
+
+2) OUVRIR dans VISUAL STUDIO CODE VSCode un DEUXIEME TERMINAL     CTRL J :
+
+PS D:\PYTHON DJANGO HOPES\github5\DJANGO_REST_FRAMEWORK\API BACKEND> maildev
+MailDev using directory C:\Users\SPSSE0~1\AppData\Local\Temp\maildev-12020
+MailDev webapp running at http://localhost:1080/
+MailDev SMTP Server running at localhost:1025
+
+
+

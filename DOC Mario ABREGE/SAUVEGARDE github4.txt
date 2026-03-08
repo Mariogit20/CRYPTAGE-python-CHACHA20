@@ -1,0 +1,409 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "maj doc 4"
+[main 786907a] maj doc 4
+ 1 file changed, 3 insertions(+)
+ create mode 100644 DOCUMENT Mario/Program Python MARIO 1.mkv
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Uploading LFS objects:   0% (0/1), 0 B | 72 KB/s, done.
+batch response: Post "https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/in
+fo/lfs/objects/batch": dial tcp: lookup github.com: no such host
+error: failed to push some refs to 'https://github.com/Mariogit20/LOGICIEL-PyQt6
+-COURS.git'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ ping github.com
+
+Envoi d’une requête 'ping' sur github.com [140.82.121.3] avec 32 octets de donné
+es :
+Réponse de 140.82.121.3 : octets=32 temps=243 ms TTL=47
+Réponse de 140.82.121.3 : octets=32 temps=242 ms TTL=47
+Réponse de 140.82.121.3 : octets=32 temps=258 ms TTL=47
+Réponse de 140.82.121.3 : octets=32 temps=246 ms TTL=47
+
+Statistiques Ping pour 140.82.121.3:
+    Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%),
+Durée approximative des boucles en millisecondes :
+    Minimum = 242ms, Maximum = 258ms, Moyenne = 247ms
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git config -l | grep lfs
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+lfs.concurrenttransfers=1
+lfs.tustransfers=false
+lfs.basictransfersonly=true
+lfs.url=https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/info/lfs
+lfs.locksverify=false
+lfs.activitytimeout=600
+lfs.tlstimeout=600
+lfs.transfer.maxretries=20
+lfs.transfer.maxretrydelay=30
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+lfs.https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/info/lfs.access=basic
+lfs.repositoryformatversion=0
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git config lfs.url "https://github.com/Mariogit20/LOGICIEL-PyQt6-COURS.git/info/lfs"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git config --unset lfs.https://github.com/Mariogit20/Chat_API_DJANGO_mario.git/info/lfs.access
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Uploading LFS objects:   0% (0/1), 0 B | 74 KB/s, done.
+batch response: Post "https://github.com/Mariogit20/LOGICIEL-PyQt6-COURS.git/inf
+o/lfs/objects/batch": dial tcp: lookup github.com: no such host
+error: failed to push some refs to 'https://github.com/Mariogit20/LOGICIEL-PyQt6
+-COURS.git'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ ipconfig /flushdns
+
+Erreur : ligne de commande inconnue ou incomplète.
+
+UTILISATION :
+    ipconfig [/allcompartments] [/? | /all |
+                                 /renew [carte] | /release [carte] |
+                                 /renew6 [carte] | /release6 [carte] |
+                                 /flushdns | /displaydns | /registerdns |
+                                 /showclassid carte |
+                                 /setclassid carte [ID_classe] |
+                                 /showclassid6 carte |
+                                 /setclassid6 carte [ID_classe] ]
+
+où
+    carte             Nom de connexion
+                       (caractères génériques * et ? autorisés, voir les
+                        exemples)
+
+    Options :
+       /?               Affiche ce message d’aide
+       /all             Affiche toutes les informations de configuration.
+       /release         Libère l’adresse IPv4 pour la carte spécifiée.
+       /release6        Libère l’adresse IPv6 pour la carte spécifiée.
+       /renew           Renouvelle l’adresse IPv4 pour la carte spécifiée.
+       /renew6          Renouvelle l’adresse IPv6 pour la carte spécifiée.
+       /flushdns        Purge le cache de résolution DNS.
+       /registerdns     Actualise tous les baux DHCP et réenregistre les noms
+                        DNS
+       /displaydns      Affiche le contenu du cache de résolution DNS.
+       /showclassid     Affiche tous les ID de classe DHCP autorisés pour la
+                        carte.
+       /setclassid      Modifie l’ID de classe DHCP.
+       /showclassid6    Affiche tous les ID de classe DHCP IPv6 autorisés pour
+                        la carte.
+       /setclassid6     Modifie l’ID de classe DHCP IPv6.
+
+
+La valeur par défaut affiche uniquement l’adresse IP, le masque de sous-réseau
+et la passerelle par défaut de chaque carte liée à TCP/IP.
+
+Pour Release et Renew, si aucun nom de carte n’est spécifié, les baux d’adresse
+IP pour toutes les cartes liées à TCP/IP sont libérés ou renouvelés.
+
+Pour Setclassid et Setclassid6, si aucun ID de classe n’est spécifié, l’ID de
+classe est supprimé.
+
+Exemples :
+    > ipconfig                       ... Affiche des informations
+    > ipconfig /all                  ... Affiche des informations détaillées
+    > ipconfig /renew                ... renouvelle toutes les cartes
+    > ipconfig /renew EL*            ... renouvelle toute connexion dont le nom
+                                         commence par EL
+    > ipconfig /release *Con*        ... libère toutes les connexions
+                                         correspondantes,
+                                         par ex. « Connexion Ethernet
+                                         câblée 1 » ou « Connexion Ethernet
+                                         câblée 2 »
+    > ipconfig /allcompartments      ... Affiche des informations sur tous les
+                                         compartiments
+    > ipconfig /allcompartments /all ... Affiche des informations détaillées
+                                         sur tous les compartiments
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ ipconfig //flushdns
+
+Configuration IP de Windows
+
+Cache de résolution DNS vidé.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Uploading LFS objects:   0% (0/1), 10 MB | 83 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "maj doc 5"
+[main 2e4d009] maj doc 5
+ 2 files changed, 3 deletions(-)
+ delete mode 100644 DOCUMENT Mario/Program Python MARIO 1.mkv
+ create mode 100644 DOCUMENT Mario/Program Python Mario.mp4
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Uploading LFS objects:   0% (0/1), 33 KB | 81 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ ssh -T git@github.com
+Hi Mariogit20! You've successfully authenticated, but GitHub does not provide shell access.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git remote set-url origin git@github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push origin main
+Connection to github.com closed by remote host.B/s
+Uploading LFS objects:   0% (0/1), 25 MB | 83 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git config lfs.activitytimeout 3600
+git config lfs.dialtimeout 3600
+git config lfs.tlstimeout 3600
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ nano ~/.ssh/config
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git lfs push origin main --all
+Uploading LFS objects:   0% (0/4), 1.5 MB | 53 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git config lfs.transfer.ssh true
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push origin main
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git remote -v
+origin  git@github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git (fetch)
+origin  git@github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git (push)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git remote set-url origin git@github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ ssh -T git@github.com
+Hi Mariogit20! You've successfully authenticated, but GitHub does not provide shell access.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ nano ~/.ssh/config
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git config lfs.transfer.ssh true
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push origin main
+no such identity: /c/Users/SPSSE02MEN/.ssh/id_rsa: No such file or directory
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ ls ~/.ssh/
+config      id_ed25519.pub         id_ed25519_mariogit20.pub  known_hosts.old
+id_ed25519  id_ed25519_mariogit20  known_hosts
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ nano ~/.ssh/config
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_ed25519_mariogit20
+Agent pid 498
+Identity added: /c/Users/SPSSE02MEN/.ssh/id_ed25519_mariogit20 (mariomariochatgpt@gmail.com)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ ssh -T git@github.com
+Hi Mariogit20! You've successfully authenticated, but GitHub does not provide shell access.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push origin main
+Uploading LFS objects:   0% (0/1), 4.4 MB | 58 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git rm --cached "DOCUMENT Mario/Program Python Mario.mp4"
+git commit -m "Suppression temporaire pour upload web"
+git push origin main
+rm 'DOCUMENT Mario/Program Python Mario.mp4'
+[main 5ea9f81] Suppression temporaire pour upload web
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 DOCUMENT Mario/Program Python Mario.mp4
+Uploading LFS objects:   0% (0/1), 360 KB | 82 KB/s
+Exiting because of "interrupt" signal.
+
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git lfs untrack "*.mp4"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ nano .gitattributes
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ nano .gitattributes
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ nano .gitattributes
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ # On "oublie" le fichier du suivi Git sans le supprimer du disque
+git rm --cached "DOCUMENT Mario/Program Python Mario.mp4"
+
+# On s'assure que LFS ne touche plus à rien
+git lfs untrack "*.mp4"
+git lfs untrack "*.mkv"
+git lfs untrack "*.exe"
+
+# On ajoute le fichier normalement
+git add "DOCUMENT Mario/Program Python Mario.mp4"
+git add .gitattributes
+
+# On valide le changement
+git commit -m "Suppression de LFS et passage en mode Git standard"
+fatal: pathspec 'DOCUMENT Mario/Program Python Mario.mp4' did not match any file
+s
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF th
+e next time Git touches it
+[main decf94b] Suppression de LFS et passage en mode Git standard
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+ create mode 100644 DOCUMENT Mario/Program Python Mario.mp4
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push origin main
+Uploading LFS objects: 100% (1/1), 107 MB | 122 KB/s, done.
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 45.05 MiB | 100.00 KiB/s, done.
+Total 12 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 2 local objects.
+To github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+   5a8aaec..decf94b  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "LFS"
+[main 9b3f40b] LFS
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 DOCUMENT Mario/Program Python MARIO 1.mkv
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 98.24 MiB | 72.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: error: Trace: 90e226a4dcc55c90bbea40662457898cd4411eb73f8c0db89e92683e02
+2b681f
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File DOCUMENT Mario/Program Python MARIO 1.mkv is 102.43 MB; this
+ exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File S
+torage - https://git-lfs.github.com.
+To github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'github.com:Mariogit20/LOGICIEL-PyQt6-COURS.g
+it'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git reset --soft HEAD~1
+git rm --cached "DOCUMENT Mario/Program Python MARIO 1.mkv"
+rm 'DOCUMENT Mario/Program Python MARIO 1.mkv'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git lfs track "*.mkv"
+Tracking "*.mkv"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .gitattributes
+git add "DOCUMENT Mario/Program Python MARIO 1.mkv"
+git commit -m "Ajout de la vidéo MKV (102 Mo) via LFS"
+[main b9c7094] Ajout de la vidéo MKV (102 Mo) via LFS
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+ create mode 100644 DOCUMENT Mario/Program Python MARIO 1.mkv
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push origin main
+Uploading LFS objects: 100% (1/1), 107 MB | 0 B/s, done.
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 543 bytes | 543.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+   decf94b..b9c7094  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "Ajout"
+[main 593090e] Ajout
+ 1 file changed, 374 insertions(+)
+ create mode 100644 DOCUMENT Mario/SAUVEGARDE github3.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 3.77 KiB | 3.77 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+   b9c7094..593090e  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "Ajout 2"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push origin main
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$

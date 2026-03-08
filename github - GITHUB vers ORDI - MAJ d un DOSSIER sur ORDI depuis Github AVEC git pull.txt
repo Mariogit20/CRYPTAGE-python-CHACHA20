@@ -1,0 +1,30 @@
+COURS PyQt6 :
+
+Pour ENVOYER dans Serveur Github :
+git init
+git add .
+git commit -m "commentaire"
+git push origin main
+
+
+
+Pour avoir les MISE A JOUR des COURS ENVOYES PAR LE PROFESSEUR  :
+git pull origin main
+
+
+
+ORGANISATION :
+
+1.Layout Vertical : QVBoxLayout
+
+2.Layout Horizontal : QHBoxLayout
+
+3.Layout Griage : QGridLayout
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+Quand le PROFESSEUR DIT ici DE FAIRE :        git pull

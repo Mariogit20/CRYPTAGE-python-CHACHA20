@@ -1,0 +1,61 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (main)
+$ git commit -m "AJOUT step8 et step9"
+[main 7485f73] AJOUT step8 et step9
+ 26 files changed, 1091 insertions(+), 18 deletions(-)
+ create mode 100644 DEV_JEUX_PYQT/steps8/app.py
+ create mode 100644 DEV_JEUX_PYQT/steps8/assets/images/favicon.ico
+ create mode 100644 DEV_JEUX_PYQT/steps8/assets/style.qss
+ create mode 100644 DEV_JEUX_PYQT/steps8/main.py
+ create mode 100644 DEV_JEUX_PYQT/steps9/1-calculatrices/app.py
+ create mode 100644 DEV_JEUX_PYQT/steps9/1-calculatrices/assets/images/favicon.i
+co
+ create mode 100644 DEV_JEUX_PYQT/steps9/1-calculatrices/assets/style.qss
+ create mode 100644 DEV_JEUX_PYQT/steps9/1-calculatrices/main.py
+ create mode 100644 DEV_JEUX_PYQT/steps9/2-PierreFeuilleCiceaux/app.py
+ create mode 100644 DEV_JEUX_PYQT/steps9/2-PierreFeuilleCiceaux/assets/images/fa
+vicon.ico
+ create mode 100644 DEV_JEUX_PYQT/steps9/2-PierreFeuilleCiceaux/assets/style.qss
+ create mode 100644 DEV_JEUX_PYQT/steps9/2-PierreFeuilleCiceaux/main.py
+ create mode 100644 DEV_JEUX_PYQT/steps9/3-JeuxMorpion/app.py
+ create mode 100644 DEV_JEUX_PYQT/steps9/3-JeuxMorpion/assets/images/favicon.ico
+ create mode 100644 DEV_JEUX_PYQT/steps9/3-JeuxMorpion/assets/style.qss
+ create mode 100644 DEV_JEUX_PYQT/steps9/3-JeuxMorpion/main.py
+ create mode 100644 DEV_JEUX_PYQT/steps9/4-InrementationDecrementation/app.py
+ create mode 100644 DEV_JEUX_PYQT/steps9/4-InrementationDecrementation/assets/im
+ages/favicon.ico
+ create mode 100644 DEV_JEUX_PYQT/steps9/4-InrementationDecrementation/assets/st
+yle.qss
+ create mode 100644 DEV_JEUX_PYQT/steps9/4-InrementationDecrementation/main.py
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (main)
+$ git push
+Enumerating objects: 44, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (30/30), 9.23 KiB | 859.00 KiB/s, done.
+Total 30 (delta 10), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (10/10), completed with 7 local objects.
+To https://github.com/Mariogit20/LOGICIEL-PyQt6-COURS.git
+   cc159d6..7485f73  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (main)
+$ git commit -m "AJOUT"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (main)
+$

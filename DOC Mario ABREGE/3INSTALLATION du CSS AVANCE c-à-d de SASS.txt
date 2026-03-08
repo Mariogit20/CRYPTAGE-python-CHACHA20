@@ -1,0 +1,37 @@
+Microsoft Windows [version 10.0.19045.5965]
+(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\SPSSE02MEN>sass -version
+'sass' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\SPSSE02MEN>node -v
+v22.13.0
+
+C:\Users\SPSSE02MEN>sass --version
+'sass' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\SPSSE02MEN>npm install sass -g
+npm error code ENOTFOUND
+npm error syscall getaddrinfo
+npm error errno ENOTFOUND
+npm error network request to https://registry.npmjs.org/sass failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+npm error network This is a problem related to network connectivity.
+npm error network In most cases you are behind a proxy or have bad network settings.
+npm error network
+npm error network If you are behind a proxy, please make sure that the
+npm error network 'proxy' config is set properly.  See: 'npm help config'
+npm error A complete log of this run can be found in: C:\Users\SPSSE02MEN\AppData\Local\npm-cache\_logs\2025-08-30T07_41_51_285Z-debug-0.log
+
+C:\Users\SPSSE02MEN>npm install sass -g
+
+added 17 packages in 13s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+C:\Users\SPSSE02MEN>sass --version
+1.91.0 compiled with dart2js 3.9.1
+
+C:\Users\SPSSE02MEN>

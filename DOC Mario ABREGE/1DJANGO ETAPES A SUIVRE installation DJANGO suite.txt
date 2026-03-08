@@ -1,0 +1,21 @@
+index.html
+
+{% extends 'layout/master.html %}
+
+{% block "title" %}
+coffee
+{% endblock "title" %}
+
+{% block 'desc' %}
+shgfgjfdgdfhghfgkmlkmlkmlklmkmlklmkmlksdfsdfdsfdfrtertt
+description du site pour faciliter les recherches et mettre en évidence le site
+
+REMARQUE IMPORTANTE : La	DESCRIPTION DE Chaque PAGE composant le SITE WEB	   peut être     PLACEE DANS     Chaque PAGE     du Site Web
+
+La     DESCRIPTION DE Chaque PAGE      ainsi que    le     TITRE DE Chaque PAGE    est UTILISE par le MOTEUR DE RECHERCHE Google lorsque le 	MOTEUR DE RECHERCHE Google EFFECTUE UNE RECHERCHE
+{% endblock 'desc' %}
+
+{% block "contenue" %}
+<div class="banner_section
+{% endblock "contenue" %}
+

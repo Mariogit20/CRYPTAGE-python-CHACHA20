@@ -1,0 +1,89 @@
+Bonjour. Dans l'Exemple 24 ci-dessus j'ai fais une MISE À JOUR c'est à dire que j'ai AJOUTÉ DEUX NOUVELLES step QUI SONT step8 ET step9. 
+
+CONTENU DE LA step8 : 
+Un simple exercice d'Incrémentation et de Décrémentation en cliquant sur les boutons Incrémenter et Decrementer avec le module PyQt6 du langage PYTHON.
+
+CONTENU DE LA step9 :
+Le CONTENU de la step9 est VRAIMENT TRÈS INTÉRESSANTE car il nous montre comment CRÉER DES JEUX en utilisant le module PyQt6 du langage PYTHON :
+1-calculatrices
+2-PierreFeuilleCiceaux
+3-JeuxMorpion
+4-IncrementationDecrementation
+
+Exemple 24 : Création d'un LOGICIEL avec le langage PYTHON en utilisant les modules PyQt6 et pillow du langage PYTHON
+
+
+https://github.com/Mariogit20/LOGICIEL-PyQt6-COURS.git
+
+
+REMARQUE PERSONNEL :
+Lors de l'INSTALLATION de PYTHON, le mieux c'est d'INSTALLER dès le début les MODULES PYTHON suivant :
+
+pip install PyQt6 
+pip install PyQt6-tools
+pip install pillow
+pip install qrcode
+pip install xhtml2pdf
+pip install pygame
+pip install facedetection
+pip install sqlite3
+pip install django
+pip install django-allauth
+pip install stripe
+pip install dotenv
+
+QUELQUES PRÉCISIONS IMPORTANTES sur toutes ces MODULES de PYTHON :
+
+Nécessaire pour le TRAITEMENT D'IMAGE en PYTHON :
+pip install pillow
+
+Nécessaire pour la CRÉATION D'UN JEU :
+pip install pygame
+
+Nécessaire pour la RECONNAISSANCE FACIALE :
+pip install facedetection
+
+La BASE DE DONNÉES sqlite DE PYTHON qui est déjà normalement installée dans le PACKAGE DE PYTHON      ( DATABASE PYTHON ) :
+pip install sqlite3
+
+Nécessaire pour le Sign Up With Google , ainsi que le Sign Up With Github :
+pip install Django-allauth
+
+Nécessaire pour FAIRE le PAIEMENT par CARTE BANCAIRE EN LIGNE avec le Framework DJANGO du langage PYTHON ( CARTE VISA ,  ) :
+STRIPE du langage PYTHON : Le module STRIPE est utilisé pour le PAIEMENT PAR CARTE BANCAIRE en LIGNE :
+pip install stripe
+
+Il y a quelque chose d'utilisé par STRIPE dans .env :
+pip install dotenv
+
+SI LA COMMANDE pip install dotenv NE FONCTIONNE PAS dans le TERMINAL (CTRL J) du logiciel VISUAL STUDIO CODE (VSCode) , alors on saisit la commande suivante :
+pip install python-dotenv
+
+Nécessaire pour VÉRIFIER SI python-dotenv EST BIEN INSTALLÉ dans VISUAL STUDIO CODE (VSCode) c'est à dire dans L'ENVIRONNEMENT VIRTUEL (venv) ou encore appelé (env) selon le choix :
+Pour VÉRIFIER SI python-dotenv EST BIEN INSTALLÉ dans le Framework DJANGO du langage PYTHON :
+pip show python-dotenv
+
+On devrait par exemple obtenir le résultat suivant :
+Name : python-dotenv
+Version : 1.0.1
+...
+
+Nécessaire pour le DÉVELOPPEMENT SUR MOBILE c'est à dire pour FAIRE une APPLICATION MOBILE avec le langage PYTHON :
+pip install kivy
+pip install kivymd
+
+Nécessaire pour VÉRIFIER SI stripe EST BIEN INSTALLÉ dans le logiciel VSCode c'est à dire dans L'ENVIRONNEMENT VIRTUEL venv OU env :
+pip show stripe
+
+REMARQUE IMPORTANTE :
+J'ai fais une MISE À JOUR du lien que j'ai distribué ci-dessus ( step8 et step9 ) :
+
+https://github.com/Mariogit20/LOGICIEL-PyQt6-COURS.git
+
+
+
+
+
+Bien cordialement,
+ANDRIANTSIMBAHARILANTO Halley Mario
+034 09 035 59

@@ -1,0 +1,5 @@
+EMPLACEMENT DU DOSSIER env :
+CRYPTAGE-python-CHACHA20\CRYPTAGE DOSSIER\chiffrement symétrique Fernet ChaCha20\env
+CRYPTAGE-python-CHACHA20\CRYPTAGE FICHIER\chiffrement symétrique Fernet ChaCha20\env
+
+

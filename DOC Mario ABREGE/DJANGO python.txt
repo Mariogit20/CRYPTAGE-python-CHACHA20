@@ -1,0 +1,134 @@
+
+
+Pour trouver le site:
+1- avantage admin mampiasa azy
+2- avantage user mampiasa azy
+3- fonctionnalité fanampiny ra ef misy
+
+
+installation ::pip  install
+..............Package............
+pip install (package Pyqt5/ pyqt6)
+pip install Pyqt5-tools ou Pyqt6-tools
+
+
+jinja2 (manokatra fichier parcourir)
+xhtml2pdf (mamaoka pdf)
+auto-py-to-exe (mamadika.exe)
+
+
+
+::::web ::::
+Django
+Stripe
+python-dotenv
+
+:::Mobil:::
+kivy
+kivymd
+
+
+::install module qrcode::
+pip install qrcode
+
+
+::install module rembg "mamafa background"::
+pip install rembg
+
+
+:::creer une envirenement virtuel dans une projet pour utiliser le flask:::
+>py.exe -m venv venv
+
+::upgrade pip
+>py -m pip install --upgrade pip
+>pip install flask
+
+::::mamadika apk flask ho lasa .exe:::
+pip install auto-py-to-exe  (installer)
+auto-py-to-exe
+
+apres la lancement : sur le script Location , trouver le fichier main.py de projet
+icon : image.ico
+
+
+
+                                                  ####Installation Django#####
+
+avant d'installer le package  installer d'abord une env virtuel
+>py -m venv venv
+et apres
+>venv/scripts/Activate   (miactiver venv)
+
+si il'ya une erreur sur l'execution du scripts
+>Set-ExecutionPolicy Unrestrited-scope CurrentUser-force
+
+(venv)>
+
+
+pip freeze >requirement.txt ( ra itsika no manokatra projet d ts maitsy)
+
+pip install -r requirements .txt (ref le projet avy any amn olona no ho traitena avy ao amn pc)
+
+pip install django
+pip install pillow (mapiditra sary)
+pip install djangorestframework (installation modulo)
+pip install markdown (interface_08:07 08/02/2025)
+pip freeze > requirements.txt  (pour créer le requirement de tous les package installer) 
+pour installer les projet dans une autre pc 
+django-admin startproject FIRST_PROJECT
+
+
+installer le scss
+npm install sass
+sass static/sass/style.scss static/css/style.css --watch (pour ddebuger le sass)
+
+py manager.py runserver  (lancer le server django)
+
+
+py manage.py startapp "AppHome"  (créer une application dans une projet)
+
+
+####Créeer une table###
+dans la modèl
+
+py manage.py makemigrations (creer le migration)
+py manage.py migrate    
+
+py manage.py createsuperuser   (créer super-utilisateur ADMIN)
+
+tous les table doit créer dans la admin.py
+
+
+
+une fois qu'on est sur le dashboard django on va sur le fichier admin:
+entrer dans ke views
+
+
+
+Chemin
+templates:
+	base:
+		header.html
+		footer.html
+		masteur.html
+
+
+static:
+	CSS
+	JS
+	Images
+
+
+
+##########avant de heberger le site templates :
+
+transformet les static dans staticfiles avec le commande = py manage.py collectstatic 
+ coupier le fichier wsgi.py dans la racine parent  et remplacer 'portfolio_wsgi  '
+creer le fichier 'portfolio_wsgi'
+pip install guinicorn (installena mba idirany ao anaty requirement)
+
+dans le site render
+sur le guincorn = 'gunicorn portfolio_wsgi:application'
+
+sur mle envirenelent variable
+SECRET_KEY = 'copier le dans le setting 

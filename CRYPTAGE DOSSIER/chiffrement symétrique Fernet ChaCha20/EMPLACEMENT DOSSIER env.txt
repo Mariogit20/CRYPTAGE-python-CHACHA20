@@ -1,0 +1,1 @@
+LOGICIEL-PyQt6-COURS\Program Python MARIO\CRYPTAGE DOSSIER\chiffrement symétrique Fernet ChaCha20\env

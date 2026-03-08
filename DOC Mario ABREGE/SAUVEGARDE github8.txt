@@ -1,0 +1,411 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+warning: in the working copy of 'Program Python MARIO/CRYPTAGE DOSSIER/chiffreme
+nt symétrique Fernet ChaCha20/env/Lib/site-packages/PyQt6/Qt6/qml/QtCore/plugins
+.qmltypes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/CRYPTAGE DOSSIER/chiffreme
+nt symétrique Fernet ChaCha20/env/Lib/site-packages/PyQt6/Qt6/qml/QtMultimedia/p
+lugins.qmltypes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/CRYPTAGE DOSSIER/chiffreme
+nt symétrique Fernet ChaCha20/env/Lib/site-packages/PyQt6/Qt6/qml/QtNetwork/plug
+ins.qmltypes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/CRYPTAGE DOSSIER/chiffreme
+nt symétrique Fernet ChaCha20/env/Lib/site-packages/PyQt6/Qt6/qml/QtPositioning/
+plugins.qmltypes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/CRYPTAGE DOSSIER/chiffreme
+nt symétrique Fernet ChaCha20/env/Lib/site-packages/PyQt6/Qt6/qml/QtQml/Models/p
+lugins.qmltypes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/CRYPTAGE DOSSIER/chiffreme
+nt symétrique Fernet ChaCha20/env/Lib/site-packages/PyQt6/Qt6/qml/QtQml/StateMac
+hine/plugins.qmltypes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/CRYPTAGE DOSSIER/chiffreme
+nt symétrique Fernet ChaCha20/env/Lib/site-packages/PyQt6/Qt6/qml/QtQml/WorkerSc
+ript/plugins.qmltypes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/CRYPTAGE DOSSIER/chiffreme
+nt symétrique Fernet ChaCha20/env/Lib/site-packages/PyQt6/Qt6/qml/QtQml/XmlListM
+odel/plugins.qmltypes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/CRYPTAGE DOSSIER/chiffreme
+nt symétrique Fernet ChaCha20/env/Lib/site-packages/PyQt6/Qt6/qml/QtQml/plugins.
+qmltypes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/CRYPTAGE DOSSIER/chiffreme
+nt symétrique Fernet ChaCha20/env/Lib/site-packages/PyQt6/Qt6/qml/QtQuick/Contro
+ls/Basic/impl/plugins.qmltypes', LF will be replaced by CRLF the next time Git t
+ouches it
+warning: in the working copy of 'Program Python MARIO/CRYPTAGE DOSSIER/chiffreme
+nt symétrique Fernet ChaCha20/env/Lib/site-packages/PyQt6/Qt6/qml/QtQuick/Contro
+ls/Basic/plugins.qmltypes', LF will be replaced by CRLF the next time Git touche
+s it
+error: open("Program Python MARIO/CRYPTAGE DOSSIER/chiffrement symétrique Fernet
+ ChaCha20/env/Lib/site-packages/PyQt6/Qt6/qml/QtQuick/Controls/FluentWinUI3/dark
+/images/editablecombobox-popup-background-hovered-open@2x.png"): Filename too lo
+ng
+error: unable to index file 'Program Python MARIO/CRYPTAGE DOSSIER/chiffrement s
+ymétrique Fernet ChaCha20/env/Lib/site-packages/PyQt6/Qt6/qml/QtQuick/Controls/F
+luentWinUI3/dark/images/editablecombobox-popup-background-hovered-open@2x.png'
+fatal: adding files failed
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git rm -r --cached .
+rm '.gitattributes'
+rm '.gitignore'
+rm 'Cours PyQt6.txt'
+rm 'DEV_JEUX_PYQT/.gitignore'
+rm 'DEV_JEUX_PYQT/Les_Widgets.txt'
+rm 'DEV_JEUX_PYQT/QMAinWindowPosition.txt'
+rm 'DEV_JEUX_PYQT/Readme.txt'
+rm 'DEV_JEUX_PYQT/StructureQV_QH.txt'
+rm 'DEV_JEUX_PYQT/requirements.txt'
+rm 'DEV_JEUX_PYQT/steps1/app.py'
+rm 'DEV_JEUX_PYQT/steps1/assets/images/favicon.ico'
+rm 'DEV_JEUX_PYQT/steps1/assets/style.qss'
+rm 'DEV_JEUX_PYQT/steps1/main.py'
+rm 'DEV_JEUX_PYQT/steps2/app.py'
+rm 'DEV_JEUX_PYQT/steps2/assets/images/favicon.ico'
+rm 'DEV_JEUX_PYQT/steps2/assets/style.qss'
+rm 'DEV_JEUX_PYQT/steps2/main.py'
+rm 'DEV_JEUX_PYQT/steps3/app.py'
+rm 'DEV_JEUX_PYQT/steps3/assets/images/favicon.ico'
+rm 'DEV_JEUX_PYQT/steps3/assets/style.qss'
+rm 'DEV_JEUX_PYQT/steps3/main.py'
+rm 'DEV_JEUX_PYQT/steps4/app.py'
+rm 'DEV_JEUX_PYQT/steps4/assets/images/favicon.ico'
+rm 'DEV_JEUX_PYQT/steps4/assets/style.qss'
+rm 'DEV_JEUX_PYQT/steps4/main.py'
+rm 'DEV_JEUX_PYQT/steps5/app.py'
+rm 'DEV_JEUX_PYQT/steps5/assets/images/favicon.ico'
+rm 'DEV_JEUX_PYQT/steps5/assets/style.qss'
+rm 'DEV_JEUX_PYQT/steps5/main.py'
+rm 'DEV_JEUX_PYQT/steps6/app.py'
+rm 'DEV_JEUX_PYQT/steps6/assets/images/favicon.ico'
+rm 'DEV_JEUX_PYQT/steps6/assets/style.qss'
+rm 'DEV_JEUX_PYQT/steps6/main.py'
+rm 'DEV_JEUX_PYQT/steps7/app.py'
+rm 'DEV_JEUX_PYQT/steps7/assets/images/favicon.ico'
+rm 'DEV_JEUX_PYQT/steps7/assets/style.qss'
+rm 'DEV_JEUX_PYQT/steps7/main.py'
+rm 'DEV_JEUX_PYQT/steps8/app.py'
+rm 'DEV_JEUX_PYQT/steps8/assets/images/favicon.ico'
+rm 'DEV_JEUX_PYQT/steps8/assets/style.qss'
+rm 'DEV_JEUX_PYQT/steps8/main.py'
+rm 'DEV_JEUX_PYQT/steps9/1-calculatrices/app.py'
+rm 'DEV_JEUX_PYQT/steps9/1-calculatrices/assets/images/favicon.ico'
+rm 'DEV_JEUX_PYQT/steps9/1-calculatrices/assets/style.qss'
+rm 'DEV_JEUX_PYQT/steps9/1-calculatrices/main.py'
+rm 'DEV_JEUX_PYQT/steps9/2-PierreFeuilleCiceaux/app.py'
+rm 'DEV_JEUX_PYQT/steps9/2-PierreFeuilleCiceaux/assets/images/favicon.ico'
+rm 'DEV_JEUX_PYQT/steps9/2-PierreFeuilleCiceaux/assets/style.qss'
+rm 'DEV_JEUX_PYQT/steps9/2-PierreFeuilleCiceaux/main.py'
+rm 'DEV_JEUX_PYQT/steps9/3-JeuxMorpion/app.py'
+rm 'DEV_JEUX_PYQT/steps9/3-JeuxMorpion/assets/images/favicon.ico'
+rm 'DEV_JEUX_PYQT/steps9/3-JeuxMorpion/assets/style.qss'
+rm 'DEV_JEUX_PYQT/steps9/3-JeuxMorpion/main.py'
+rm 'DEV_JEUX_PYQT/steps9/4-InrementationDecrementation/app.py'
+rm 'DEV_JEUX_PYQT/steps9/4-InrementationDecrementation/assets/images/favicon.ico
+'
+rm 'DEV_JEUX_PYQT/steps9/4-InrementationDecrementation/assets/style.qss'
+rm 'DEV_JEUX_PYQT/steps9/4-InrementationDecrementation/main.py'
+rm 'DOCUMENT Mario/1DJANGO ETAPES A SUIVRE installation DJANGO ok.txt'
+rm 'DOCUMENT Mario/1DJANGO ETAPES A SUIVRE installation DJANGO suite.txt'
+rm 'DOCUMENT Mario/1DJANGO ETAPES A SUIVRE installation DJANGO.txt'
+rm 'DOCUMENT Mario/2CREATION d'un LOGICIEL PYTHON avec PYQT6 et Qt Designer - VE
+RSION2.txt'
+rm 'DOCUMENT Mario/3INSTALLATION du CSS AVANCE c-à-d de SASS.txt'
+rm 'DOCUMENT Mario/API - DJANGO REST FRAMEWORK.txt'
+rm 'DOCUMENT Mario/API - INSTALL DjangoRestFramework.txt'
+rm 'DOCUMENT Mario/COURS sass.txt'
+rm 'DOCUMENT Mario/DJANGO REST FRAMEWORK api.txt'
+rm 'DOCUMENT Mario/DJANGO python.txt'
+rm 'DOCUMENT Mario/FORMULAIRE NATIF de DJANGO.txt'
+rm 'DOCUMENT Mario/INSTALLATION API django.txt'
+rm 'DOCUMENT Mario/Installation DJANGO de Python.txt'
+rm 'DOCUMENT Mario/Les MODULES de PYTHON conseille par MARIO.txt'
+rm 'DOCUMENT Mario/Program Python MARIO 1.mkv'
+rm 'DOCUMENT Mario/Program Python Mario.mp4'
+rm 'DOCUMENT Mario/SAUVEGARDE github.txt'
+rm 'DOCUMENT Mario/SAUVEGARDE github2.txt'
+rm 'DOCUMENT Mario/SAUVEGARDE github3.txt'
+rm 'DOCUMENT Mario/SAUVEGARDE github4.txt'
+rm 'DOCUMENT Mario/SAUVEGARDE github5.txt'
+rm 'DOCUMENT Mario/SAUVEGARDE github7.txt'
+rm 'DOCUMENT Mario/calculatrice_simple_clavier.docx'
+rm 'DOCUMENT Mario/calculatrice_simple_clavier.exe'
+rm 'DOCUMENT Mario/calculatrice_simple_clavier.mkv'
+rm 'DOCUMENT Mario/calculatrice_simple_clavier.pdf'
+rm 'DOCUMENT Mario/gemini 3.1 PRO.docx'
+rm 'DOCUMENT Mario/gemini 3.1 PRO.pdf'
+rm 'DOCUMENT Mario/gemini 3.1 Pro 2.docx'
+rm 'DOCUMENT Mario/gemini 3.1 Pro 2.pdf'
+rm 'DOCUMENT Mario/github - ORDINATEUR vers GITHUB - SAUVEGARDE DANS github.txt'
+rm 'DOCUMENT Mario/maildev.txt'
+rm 'DOCUMENT Mario/pyth.txt'
+rm 'EXO/BOUTON_INCREMENTE/.gitignore'
+rm 'EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier.docx'
+rm 'EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier.pdf'
+rm 'EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/assets/images/favicon.ico'
+rm 'EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/assets/style.qss'
+rm 'EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/dist/main.exe'
+rm 'EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/main.py'
+rm 'EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/main.spec'
+rm 'EXO/BOUTON_INCREMENTE/calculatrice_simple_souris/assets/images/favicon.ico'
+rm 'EXO/BOUTON_INCREMENTE/calculatrice_simple_souris/main.py'
+rm 'EXO/BOUTON_INCREMENTE/incrementation/app.py'
+rm 'EXO/BOUTON_INCREMENTE/incrementation/assets/images/favicon.ico'
+rm 'EXO/BOUTON_INCREMENTE/incrementation/assets/style.qss'
+rm 'EXO/BOUTON_INCREMENTE/incrementation/main.py'
+rm 'EXO/BOUTON_INCREMENTE/requirements.txt'
+rm 'EXO2/BOUTON_INCREMENTE/.gitignore'
+rm 'EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier.docx'
+rm 'EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier.pdf'
+rm 'EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/assets/images/favicon.ico
+'
+rm 'EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/assets/style.qss'
+rm 'EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/dist/calculatrice_simple_
+clavier.exe'
+rm 'EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/dist/main.exe'
+rm 'EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/main.py'
+rm 'EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/main.spec'
+rm 'EXO2/BOUTON_INCREMENTE/calculatrice_simple_souris/assets/images/favicon.ico'
+rm 'EXO2/BOUTON_INCREMENTE/calculatrice_simple_souris/main.py'
+rm 'EXO2/BOUTON_INCREMENTE/incrementation/app.py'
+rm 'EXO2/BOUTON_INCREMENTE/incrementation/assets/images/favicon.ico'
+rm 'EXO2/BOUTON_INCREMENTE/incrementation/assets/style.qss'
+rm 'EXO2/BOUTON_INCREMENTE/incrementation/main.py'
+rm 'EXO2/BOUTON_INCREMENTE/requirements.txt'
+rm 'Program Python MARIO/Exemples PYTHON/1entropie de shannon en python/arbre de
+ décision utilisant l'entropie de shannon en python.docx'
+rm 'Program Python MARIO/Exemples PYTHON/1entropie de shannon en python/arbre de
+ décision utilisant l'entropie de shannon en python.pdf'
+rm 'Program Python MARIO/Exemples PYTHON/1entropie de shannon en python/entropie
+ de shannon en python.docx'
+rm 'Program Python MARIO/Exemples PYTHON/1entropie de shannon en python/entropie
+ de shannon en python.pdf'
+rm 'Program Python MARIO/Exemples PYTHON/1entropie de shannon en python/prédire
+tableau de données avec entropie de shannon en python.docx'
+rm 'Program Python MARIO/Exemples PYTHON/1entropie de shannon en python/prédire
+tableau de données avec entropie de shannon en python.pdf'
+rm 'Program Python MARIO/Exemples PYTHON/Cours PYTHON en ligne.txt'
+rm 'Program Python MARIO/Exemples PYTHON/DATE la PLUS ANCIENNE/DATE la PLUS ANCI
+ENNE.docx'
+rm 'Program Python MARIO/Exemples PYTHON/DATE la PLUS ANCIENNE/DATE la PLUS ANCI
+ENNE.pdf'
+rm 'Program Python MARIO/Exemples PYTHON/DATE la PLUS ANCIENNE/Nouveau document
+texte.txt'
+rm 'Program Python MARIO/Exemples PYTHON/DATE la PLUS ANCIENNE/date_la_plus_anci
+enne_PYTHON.txt'
+rm 'Program Python MARIO/Exemples PYTHON/DATE la PLUS ANCIENNE/main_date_la_plus
+_ancienne_PYTHON.py'
+rm 'Program Python MARIO/Exemples PYTHON/DIFFERENCE_MINUTE_entre_2_dates/DIFFERE
+NCE_JoursHeuresMinutes.txt'
+rm 'Program Python MARIO/Exemples PYTHON/DIFFERENCE_MINUTE_entre_2_dates/DIFFERE
+NCE_MINUTE_entre_2_dates.txt'
+rm 'Program Python MARIO/Exemples PYTHON/Mastering Python Syntax ( A CONTINUER )
+/Mastering Python Syntax ( A CONTINUER ).docx'
+rm 'Program Python MARIO/Exemples PYTHON/Mastering Python Syntax ( A CONTINUER )
+/Mastering Python Syntax ( A CONTINUER ).pdf'
+rm 'Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot ARBRE BINAIRE D
+E RECHERCHE/RECHERCHER INSERRER clé dans ARBRE BNAIRE DE RECHERCHE.docx'
+rm 'Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot ARBRE BINAIRE D
+E RECHERCHE/RECHERCHER INSERRER clé dans ARBRE BNAIRE DE RECHERCHE.pdf'
+rm 'Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot ARBRE BINAIRE D
+E RECHERCHE/RECHERCHER INSERRER clé dans ARBRE BNAIRE DE RECHERCHE.txt'
+rm 'Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot ARBRE BINAIRE D
+E RECHERCHE/Utiliser Python dans les arbres binaires de recherche.txt'
+rm 'Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot ARBRE BINAIRE D
+E RECHERCHE/editeur PYTHON en ligne.txt'
+rm 'Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot ARBRE BINAIRE D
+E RECHERCHE/insérrer un mot dans un arbre binaire de recherche en python.docx'
+rm 'Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot ARBRE BINAIRE D
+E RECHERCHE/insérrer un mot dans un arbre binaire de recherche en python.pdf'
+rm 'Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot ARBRE BINAIRE D
+E RECHERCHE/main_2_INSERER_NOMBRE_dans_ARBRE_BINAIRE_DE_RECHERCHE.py'
+rm 'Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot ARBRE BINAIRE D
+E RECHERCHE/main_3_INSERER_MOT_dans_ARBRE_BINAIRE_DE_RECHERCHE.py'
+rm 'Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot ARBRE BINAIRE D
+E RECHERCHE/main_4_Rechercher_MOT_dans_ARBRE_BINAIRE_DE_RECHERCHE.py'
+rm 'Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot ARBRE BINAIRE D
+E RECHERCHE/main_5_Rechercher_NOMBRE_dans_ARBRE_BINAIRE_DE_RECHERCHE.py'
+rm 'Program Python MARIO/Exemples PYTHON/RSA et ARBRE BINAIRE python/2cryptage c
+hiffrement RSA en python/cryptage chiffrement RSA en python.docx'
+rm 'Program Python MARIO/Exemples PYTHON/RSA et ARBRE BINAIRE python/2cryptage c
+hiffrement RSA en python/cryptage chiffrement RSA en python.pdf'
+rm 'Program Python MARIO/Exemples PYTHON/RSA et ARBRE BINAIRE python/3RECHERCHER
+ MOT dans ARBRE BINAIRE DE RECHERCHE/rechercher un mot dans un arbre binaire de
+recherche en python.docx'
+rm 'Program Python MARIO/Exemples PYTHON/RSA et ARBRE BINAIRE python/3RECHERCHER
+ MOT dans ARBRE BINAIRE DE RECHERCHE/rechercher un mot dans un arbre binaire de
+recherche en python.pdf'
+rm 'Program Python MARIO/Exemples PYTHON/RSA et ARBRE BINAIRE python/insérrer un
+ mot dans un arbre binaire de recherche en python.docx'
+rm 'Program Python MARIO/Exemples PYTHON/RSA et ARBRE BINAIRE python/insérrer un
+ mot dans un arbre binaire de recherche en python.pdf'
+rm 'Program Python MARIO/Exemples PYTHON/distance de Levenshtein PYTHON/distance
+ de Levenshtein PYTHON.txt'
+rm 'Program Python MARIO/Exemples PYTHON/distance de Levenshtein PYTHON/main_dis
+tance_de_Levenshtein_1_BIBLIOTHEQUE_Python.py'
+rm 'Program Python MARIO/Exemples PYTHON/distance de Levenshtein PYTHON/main_dis
+tance_de_Levenshtein_METHODE_2_ALGORITHME.py'
+rm 'Program Python MARIO/Exemples PYTHON/editeur PYTHON en ligne.txt'
+rm 'Program Python MARIO/nombreInstanceDuneCLASS/InstanceDuneCLASS.py'
+rm 'Program Python MARIO/nombreInstanceDuneCLASS/SAUVEGARDE github.txt'
+rm 'Program Python MARIO/nombreInstanceDuneCLASS/gemini 3.1 Pro.docx'
+rm 'Program Python MARIO/nombreInstanceDuneCLASS/gemini 3.1 Pro.pdf'
+rm 'Program Python MARIO/nombreInstanceDuneCLASS/nombreInstanceDuneCLASS.py'
+rm 'Program Python MARIO/try except else finally/journal.txt'
+rm 'Program Python MARIO/try except else finally/try_except_else_finally.docx'
+rm 'Program Python MARIO/try except else finally/try_except_else_finally.pdf'
+rm 'Program Python MARIO/try except else finally/try_except_else_finally.py'
+rm 'README.md'
+rm 'github - GITHUB vers ORDI - MAJ d un DOSSIER sur ORDI depuis Github AVEC git
+ pull.txt'
+rm 'github - ORDINATEUR vers GITHUB - SAUVEGARDE DANS github.txt'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/DATE la PL
+US ANCIENNE/main_date_la_plus_ancienne_PYTHON.py', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/RECHERCHER
+ INSERRER Mot ARBRE BINAIRE DE RECHERCHE/main_2_INSERER_NOMBRE_dans_ARBRE_BINAIR
+E_DE_RECHERCHE.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/RECHERCHER
+ INSERRER Mot ARBRE BINAIRE DE RECHERCHE/main_3_INSERER_MOT_dans_ARBRE_BINAIRE_D
+E_RECHERCHE.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/RECHERCHER
+ INSERRER Mot ARBRE BINAIRE DE RECHERCHE/main_4_Rechercher_MOT_dans_ARBRE_BINAIR
+E_DE_RECHERCHE.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/RECHERCHER
+ INSERRER Mot ARBRE BINAIRE DE RECHERCHE/main_5_Rechercher_NOMBRE_dans_ARBRE_BIN
+AIRE_DE_RECHERCHE.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/distance d
+e Levenshtein PYTHON/main_distance_de_Levenshtein_METHODE_2_ALGORITHME.py', LF w
+ill be replaced by CRLF the next time Git touches it
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "ChaCha20"
+[main 3dc1da6] ChaCha20
+ 43 files changed, 704 insertions(+)
+ create mode 100644 DOCUMENT Mario/CRYPTAGE DOSSIER/DIFFERENCE entre CRYPTAGE Ch
+aCha20Poly1305 et ChaCha20 pur.docx
+ create mode 100644 DOCUMENT Mario/CRYPTAGE DOSSIER/DIFFERENCE entre CRYPTAGE Ch
+aCha20Poly1305 et ChaCha20 pur.pdf
+ create mode 100644 "DOCUMENT Mario/CRYPTAGE DOSSIER/chiffrement sym\303\251triq
+ue Fernet ChaCha20.docx"
+ create mode 100644 "DOCUMENT Mario/CRYPTAGE DOSSIER/chiffrement sym\303\251triq
+ue Fernet ChaCha20.pdf"
+ create mode 100644 DOCUMENT Mario/CRYPTAGE FICHIER/DIFFERENCE entre CRYPTAGE Ch
+aCha20Poly1305 et ChaCha20 pur.docx
+ create mode 100644 DOCUMENT Mario/CRYPTAGE FICHIER/DIFFERENCE entre CRYPTAGE Ch
+aCha20Poly1305 et ChaCha20 pur.pdf
+ create mode 100644 "DOCUMENT Mario/CRYPTAGE FICHIER/chiffrement sym\303\251triq
+ue Fernet ChaCha20.docx"
+ create mode 100644 "DOCUMENT Mario/CRYPTAGE FICHIER/chiffrement sym\303\251triq
+ue Fernet ChaCha20.pdf"
+ create mode 100644 Program Python MARIO/CRYPTAGE DOSSIER/DIFFERENCE entre CRYPT
+AGE ChaCha20Poly1305 et ChaCha20 pur.docx
+ create mode 100644 Program Python MARIO/CRYPTAGE DOSSIER/DIFFERENCE entre CRYPT
+AGE ChaCha20Poly1305 et ChaCha20 pur.pdf
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20.docx"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20.pdf"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/Border Animation CSS _ Quick Animation.mp4"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/ChaCha20-Poly1305.txt"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/ChaCha20Poly1305_AUCUN_FICHIER_NE_DEPASSE_256_Go.py"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go.py"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/Dossier Utilis\303\251/Vid\303\251o/Border Animation CS
+S _ Quick Animation.mp4"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/EMPLACEMENT DOSSIER env.txt"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/TERMINAL CTRL J de VSCode.txt"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/chiffrement sym\303\251trique Fernet.txt"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/ma_cle_chacha20.key"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/requirements.txt"
+ create mode 100644 Program Python MARIO/CRYPTAGE FICHIER/DIFFERENCE entre CRYPT
+AGE ChaCha20Poly1305 et ChaCha20 pur.docx
+ create mode 100644 Program Python MARIO/CRYPTAGE FICHIER/DIFFERENCE entre CRYPT
+AGE ChaCha20Poly1305 et ChaCha20 pur.pdf
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20.docx"
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20.pdf"
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/Border Animation CSS _ Quick Animation.mp4"
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/ChaCha20-Poly1305.txt"
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/EMPLACEMENT DOSSIER env.txt"
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/Fichier Utilis\303\251/Border Animation CSS _ Quick Ani
+mation.mp4"
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/Fichier Utilis\303\251/Border Animation CSS _ Quick Ani
+mation.mp4.enc"
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/TERMINAL CTRL J de VSCode.txt"
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/chiffrement sym\303\251trique Fernet ChaCha20.docx"
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/chiffrement sym\303\251trique Fernet ChaCha20.pdf"
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/chiffrement sym\303\251trique Fernet.txt"
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/chiffrement_symetrique_Fernet.py"
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/ma_cle_chacha20.key"
+ create mode 100644 "Program Python MARIO/CRYPTAGE FICHIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/requirements.txt"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Enumerating objects: 52, done.
+Counting objects: 100% (52/52), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (33/33), done.
+Writing objects: 100% (41/41), 53.51 MiB | 296.00 KiB/s, done.
+Total 41 (delta 17), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (17/17), completed with 4 local objects.
+To github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+   65c259f..3dc1da6  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "Aljout ChaCha20"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "Ajout ChaCha20"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$

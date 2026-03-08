@@ -1,0 +1,1 @@
+C'est un excellent choix ! Passer à ChaCha20-Poly1305 rend votre application digne des standards de sécurité les plus récents, tout en garantissant des performances optimales.

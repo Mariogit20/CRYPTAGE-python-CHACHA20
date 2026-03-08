@@ -1,0 +1,162 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github (master)
+$ git clone https://github.com/Mariogit20/DJANGO_RESTFRAMEWORK_PROJET.git
+Cloning into 'DJANGO_RESTFRAMEWORK_PROJET'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github (master)
+$ cd DJANGO_RESTFRAMEWORK_PROJET
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (main)
+$ git branch Test
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (main)
+$ git checkout Test
+Switched to branch 'Test'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (Test)
+$ git push --set-upstream origin Test
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Test' on GitHub by visiting:
+remote:      https://github.com/Mariogit20/DJANGO_RESTFRAMEWORK_PROJET/pull/new/
+Test
+remote:
+To https://github.com/Mariogit20/DJANGO_RESTFRAMEWORK_PROJET.git
+ * [new branch]      Test -> Test
+branch 'Test' set up to track 'origin/Test'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (Test)
+$ git branch Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (Test)
+$ git checkout Dev
+Switched to branch 'Dev'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (Dev)
+$ git push --set-upstream origin Dev
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Dev' on GitHub by visiting:
+remote:      https://github.com/Mariogit20/DJANGO_RESTFRAMEWORK_PROJET/pull/new/
+Dev
+remote:
+To https://github.com/Mariogit20/DJANGO_RESTFRAMEWORK_PROJET.git
+ * [new branch]      Dev -> Dev
+branch 'Dev' set up to track 'origin/Dev'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (Dev)
+$ git commit -m "Ajout gitignore"
+[Dev 4a842c1] Ajout gitignore
+ 1 file changed, 1 insertion(+)
+ create mode 100644 .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (Dev)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 289 bytes | 289.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/DJANGO_RESTFRAMEWORK_PROJET.git
+   a20d5fc..4a842c1  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (Dev)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (Dev)
+$ git commit -m "Modification gitignore"
+[Dev 4eaa5ef] Modification gitignore
+ 1 file changed, 1 insertion(+)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (Dev)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 305 bytes | 305.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mariogit20/DJANGO_RESTFRAMEWORK_PROJET.git
+   4a842c1..4eaa5ef  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (Dev)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (Dev)
+$ git commit -m "first commit"
+[Dev 84ac8d7] first commit
+ 47 files changed, 286 insertions(+)
+ create mode 100644 requirements.txt
+ create mode 100644 src/crud_api/__init__.py
+ create mode 100644 src/crud_api/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 src/crud_api/__pycache__/__init__.cpython-313.pyc
+ create mode 100644 src/crud_api/__pycache__/settings.cpython-312.pyc
+ create mode 100644 src/crud_api/__pycache__/settings.cpython-313.pyc
+ create mode 100644 src/crud_api/__pycache__/urls.cpython-312.pyc
+ create mode 100644 src/crud_api/__pycache__/urls.cpython-313.pyc
+ create mode 100644 src/crud_api/__pycache__/wsgi.cpython-312.pyc
+ create mode 100644 src/crud_api/__pycache__/wsgi.cpython-313.pyc
+ create mode 100644 src/crud_api/asgi.py
+ create mode 100644 src/crud_api/settings.py
+ create mode 100644 src/crud_api/urls.py
+ create mode 100644 src/crud_api/wsgi.py
+ create mode 100644 src/db.sqlite3
+ create mode 100644 src/manage.py
+ create mode 100644 src/produits/__init__.py
+ create mode 100644 src/produits/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 src/produits/__pycache__/__init__.cpython-313.pyc
+ create mode 100644 src/produits/__pycache__/admin.cpython-312.pyc
+ create mode 100644 src/produits/__pycache__/admin.cpython-313.pyc
+ create mode 100644 src/produits/__pycache__/apps.cpython-312.pyc
+ create mode 100644 src/produits/__pycache__/apps.cpython-313.pyc
+ create mode 100644 src/produits/__pycache__/models.cpython-312.pyc
+ create mode 100644 src/produits/__pycache__/models.cpython-313.pyc
+ create mode 100644 src/produits/__pycache__/serializers.cpython-312.pyc
+ create mode 100644 src/produits/__pycache__/serializers.cpython-313.pyc
+ create mode 100644 src/produits/__pycache__/urls.cpython-312.pyc
+ create mode 100644 src/produits/__pycache__/urls.cpython-313.pyc
+ create mode 100644 src/produits/__pycache__/views.cpython-312.pyc
+ create mode 100644 src/produits/__pycache__/views.cpython-313.pyc
+ create mode 100644 src/produits/admin.py
+ create mode 100644 src/produits/apps.py
+ create mode 100644 src/produits/migrations/0001_initial.py
+ create mode 100644 src/produits/migrations/__init__.py
+ create mode 100644 src/produits/migrations/__pycache__/0001_initial.cpython-312
+.pyc
+ create mode 100644 src/produits/migrations/__pycache__/0001_initial.cpython-313
+.pyc
+ create mode 100644 src/produits/migrations/__pycache__/__init__.cpython-312.pyc
+ create mode 100644 src/produits/migrations/__pycache__/__init__.cpython-313.pyc
+ create mode 100644 src/produits/models.py
+ create mode 100644 src/produits/serializers.py
+ create mode 100644 src/produits/tests.py
+ create mode 100644 src/produits/urls.py
+ create mode 100644 src/produits/views.py
+ create mode 100644 src/requirements.txt
+ create mode 100644 src/static/image/produits/8_1sasa11.jpg
+ create mode 100644 src/static/image/produits/download.png
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (Dev)
+$ git push
+Enumerating objects: 57, done.
+Counting objects: 100% (57/57), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (53/53), done.
+Writing objects: 100% (56/56), 693.14 KiB | 8.45 MiB/s, done.
+Total 56 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/Mariogit20/DJANGO_RESTFRAMEWORK_PROJET.git
+   4eaa5ef..84ac8d7  Dev -> Dev
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github/DJANGO_RESTFRAMEWORK_PROJET (Dev)
+$

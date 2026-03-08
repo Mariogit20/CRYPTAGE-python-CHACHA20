@@ -1,0 +1,39 @@
+Dans le DOSSIER   SASS  :
+
+style.scss : FICHIER PRINCIPAL
+
+_utils.scss : FICHIERS A IMPORTER car PRESENCE DE     UNDERSCORE    _
+
+_utils.scss : FONCTION sy VARIABLE no MATETIKA AMPIASAINA.     FA _utils.scss :   IZAY ZAVATRA ATAO MATETIKA  AO  ANATIN'NY    _function.scss   SY   _variable.scss
+
+-------------------------- Dans le   TERMINAL   de   VISUAL STUDIO CODE :       CTRL   J
+
+PS D:\PYTHON DJANGO Cours HOPES\PYTHON SASS css avancé TANJONA\SASS> set-executionpolicy unrestricted -scope currentuser -force
+PS D:\PYTHON DJANGO Cours HOPES\PYTHON SASS css avancé TANJONA\SASS> 
+
+------------------
+COMMANDE du TERMINAL    CTRL J    de   VSCode pour        METTRE A JOUR       le     FICHIER     style.css     CONTENU DANS LE    DOSSIER    css    ::::
+COMMANDE pour    SASS css    DE MISE A JOUR dans    TERMINAL CTRL J    de    VSCode    du FICHIER    style.css    ::::
+
+
+PS D:\PYTHON DJANGO Cours HOPES\PYTHON SASS css avancé TANJONA\SASS> sass sass/style.scss css/style.css --watch
+[2025-08-30 11:13] Compiled sass\style.scss to css\style.css.
+Sass is watching for changes. Press Ctrl-C to stop.
+
+--------------------
+
+LE """"CODE   sass""""    """"NE CONTIENT    AUCUNE   ERREUR""""     si on a l'""""AFFICHAGE suivant""""    dans le    """" TERMINAL   CTRL J """"    de    """"VISUAL STUDIO CODE""""   ::::::::::::::::::
+
+
+  SASS\components\_header.scss 10:5  @use
+  SASS\style.scss 1:1                root stylesheet
+[2025-08-30 11:57] Compiled SASS\style.scss to css\style.css.
+
+
+
+
+
+
+
+
+

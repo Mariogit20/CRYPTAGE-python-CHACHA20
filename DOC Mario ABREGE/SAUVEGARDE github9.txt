@@ -1,0 +1,104 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "Ajout load"
+[main 74d1470] Ajout load
+ 5 files changed, 137 insertions(+), 98 deletions(-)
+ create mode 100644 DOCUMENT Mario/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go
+EXE WINDOWS.docx
+ create mode 100644 DOCUMENT Mario/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go
+EXE WINDOWS.pdf
+ create mode 100644 DOCUMENT Mario/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go.
+docx
+ create mode 100644 DOCUMENT Mario/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go.
+mkv
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Uploading LFS objects: 100% (1/1), 200 MB | 165 KB/s, done.
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 364.76 KiB | 2.04 MiB/s, done.
+Total 11 (delta 7), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (7/7), completed with 6 local objects.
+To github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+   0c7f506..74d1470  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/DATE la PL
+US ANCIENNE/main_date_la_plus_ancienne_PYTHON.py', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/RECHERCHER
+ INSERRER Mot ARBRE BINAIRE DE RECHERCHE/main_2_INSERER_NOMBRE_dans_ARBRE_BINAIR
+E_DE_RECHERCHE.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/RECHERCHER
+ INSERRER Mot ARBRE BINAIRE DE RECHERCHE/main_3_INSERER_MOT_dans_ARBRE_BINAIRE_D
+E_RECHERCHE.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/RECHERCHER
+ INSERRER Mot ARBRE BINAIRE DE RECHERCHE/main_4_Rechercher_MOT_dans_ARBRE_BINAIR
+E_DE_RECHERCHE.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/RECHERCHER
+ INSERRER Mot ARBRE BINAIRE DE RECHERCHE/main_5_Rechercher_NOMBRE_dans_ARBRE_BIN
+AIRE_DE_RECHERCHE.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/distance d
+e Levenshtein PYTHON/main_distance_de_Levenshtein_METHODE_2_ALGORITHME.py', LF w
+ill be replaced by CRLF the next time Git touches it
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "Ajout exe"
+[main 3be339c] Ajout exe
+ 4 files changed, 39 insertions(+)
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go.spec"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/dist/ChaCha20_pur_UN_FICHIER_peut_DEPASSER_256_Go.exe"
+ create mode 100644 "Program Python MARIO/CRYPTAGE DOSSIER/chiffrement sym\303\2
+51trique Fernet ChaCha20/dist/ma_cle_chacha20.key"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 38.38 MiB | 161.00 KiB/s, done.
+Total 10 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+   74d1470..3be339c  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "Ajout exe 2"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "Ajout exe 3"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$

@@ -1,0 +1,200 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/DATE la PL
+US ANCIENNE/main_date_la_plus_ancienne_PYTHON.py', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/RECHERCHER
+ INSERRER Mot ARBRE BINAIRE DE RECHERCHE/main_2_INSERER_NOMBRE_dans_ARBRE_BINAIR
+E_DE_RECHERCHE.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/RECHERCHER
+ INSERRER Mot ARBRE BINAIRE DE RECHERCHE/main_3_INSERER_MOT_dans_ARBRE_BINAIRE_D
+E_RECHERCHE.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/RECHERCHER
+ INSERRER Mot ARBRE BINAIRE DE RECHERCHE/main_4_Rechercher_MOT_dans_ARBRE_BINAIR
+E_DE_RECHERCHE.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/RECHERCHER
+ INSERRER Mot ARBRE BINAIRE DE RECHERCHE/main_5_Rechercher_NOMBRE_dans_ARBRE_BIN
+AIRE_DE_RECHERCHE.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Program Python MARIO/Exemples PYTHON/distance d
+e Levenshtein PYTHON/main_distance_de_Levenshtein_METHODE_2_ALGORITHME.py', LF w
+ill be replaced by CRLF the next time Git touches it
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "ajout fichiers"
+[main 891c397] ajout fichiers
+ 37 files changed, 646 insertions(+)
+ create mode 100644 "Program Python MARIO/Exemples PYTHON/1entropie de shannon e
+n python/arbre de d\303\251cision utilisant l'entropie de shannon en python.docx
+"
+ create mode 100644 "Program Python MARIO/Exemples PYTHON/1entropie de shannon e
+n python/arbre de d\303\251cision utilisant l'entropie de shannon en python.pdf"
+ create mode 100644 Program Python MARIO/Exemples PYTHON/1entropie de shannon en
+ python/entropie de shannon en python.docx
+ create mode 100644 Program Python MARIO/Exemples PYTHON/1entropie de shannon en
+ python/entropie de shannon en python.pdf
+ create mode 100644 "Program Python MARIO/Exemples PYTHON/1entropie de shannon e
+n python/pr\303\251dire tableau de donn\303\251es avec entropie de shannon en py
+thon.docx"
+ create mode 100644 "Program Python MARIO/Exemples PYTHON/1entropie de shannon e
+n python/pr\303\251dire tableau de donn\303\251es avec entropie de shannon en py
+thon.pdf"
+ create mode 100644 Program Python MARIO/Exemples PYTHON/Cours PYTHON en ligne.t
+xt
+ create mode 100644 Program Python MARIO/Exemples PYTHON/DATE la PLUS ANCIENNE/D
+ATE la PLUS ANCIENNE.docx
+ create mode 100644 Program Python MARIO/Exemples PYTHON/DATE la PLUS ANCIENNE/D
+ATE la PLUS ANCIENNE.pdf
+ create mode 100644 Program Python MARIO/Exemples PYTHON/DATE la PLUS ANCIENNE/N
+ouveau document texte.txt
+ create mode 100644 Program Python MARIO/Exemples PYTHON/DATE la PLUS ANCIENNE/d
+ate_la_plus_ancienne_PYTHON.txt
+ create mode 100644 Program Python MARIO/Exemples PYTHON/DATE la PLUS ANCIENNE/m
+ain_date_la_plus_ancienne_PYTHON.py
+ create mode 100644 Program Python MARIO/Exemples PYTHON/DIFFERENCE_MINUTE_entre
+_2_dates/DIFFERENCE_JoursHeuresMinutes.txt
+ create mode 100644 Program Python MARIO/Exemples PYTHON/DIFFERENCE_MINUTE_entre
+_2_dates/DIFFERENCE_MINUTE_entre_2_dates.txt
+ create mode 100644 Program Python MARIO/Exemples PYTHON/Mastering Python Syntax
+ ( A CONTINUER )/Mastering Python Syntax ( A CONTINUER ).docx
+ create mode 100644 Program Python MARIO/Exemples PYTHON/Mastering Python Syntax
+ ( A CONTINUER )/Mastering Python Syntax ( A CONTINUER ).pdf
+ create mode 100644 "Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mo
+t ARBRE BINAIRE DE RECHERCHE/RECHERCHER INSERRER cl\303\251 dans ARBRE BNAIRE DE
+ RECHERCHE.docx"
+ create mode 100644 "Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mo
+t ARBRE BINAIRE DE RECHERCHE/RECHERCHER INSERRER cl\303\251 dans ARBRE BNAIRE DE
+ RECHERCHE.pdf"
+ create mode 100644 "Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mo
+t ARBRE BINAIRE DE RECHERCHE/RECHERCHER INSERRER cl\303\251 dans ARBRE BNAIRE DE
+ RECHERCHE.txt"
+ create mode 100644 Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot
+ ARBRE BINAIRE DE RECHERCHE/Utiliser Python dans les arbres binaires de recherch
+e.txt
+ create mode 100644 Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot
+ ARBRE BINAIRE DE RECHERCHE/editeur PYTHON en ligne.txt
+ create mode 100644 "Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mo
+t ARBRE BINAIRE DE RECHERCHE/ins\303\251rrer un mot dans un arbre binaire de rec
+herche en python.docx"
+ create mode 100644 "Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mo
+t ARBRE BINAIRE DE RECHERCHE/ins\303\251rrer un mot dans un arbre binaire de rec
+herche en python.pdf"
+ create mode 100644 Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot
+ ARBRE BINAIRE DE RECHERCHE/main_2_INSERER_NOMBRE_dans_ARBRE_BINAIRE_DE_RECHERCH
+E.py
+ create mode 100644 Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot
+ ARBRE BINAIRE DE RECHERCHE/main_3_INSERER_MOT_dans_ARBRE_BINAIRE_DE_RECHERCHE.p
+y
+ create mode 100644 Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot
+ ARBRE BINAIRE DE RECHERCHE/main_4_Rechercher_MOT_dans_ARBRE_BINAIRE_DE_RECHERCH
+E.py
+ create mode 100644 Program Python MARIO/Exemples PYTHON/RECHERCHER INSERRER Mot
+ ARBRE BINAIRE DE RECHERCHE/main_5_Rechercher_NOMBRE_dans_ARBRE_BINAIRE_DE_RECHE
+RCHE.py
+ create mode 100644 Program Python MARIO/Exemples PYTHON/RSA et ARBRE BINAIRE py
+thon/2cryptage chiffrement RSA en python/cryptage chiffrement RSA en python.docx
+ create mode 100644 Program Python MARIO/Exemples PYTHON/RSA et ARBRE BINAIRE py
+thon/2cryptage chiffrement RSA en python/cryptage chiffrement RSA en python.pdf
+ create mode 100644 Program Python MARIO/Exemples PYTHON/RSA et ARBRE BINAIRE py
+thon/3RECHERCHER MOT dans ARBRE BINAIRE DE RECHERCHE/rechercher un mot dans un a
+rbre binaire de recherche en python.docx
+ create mode 100644 Program Python MARIO/Exemples PYTHON/RSA et ARBRE BINAIRE py
+thon/3RECHERCHER MOT dans ARBRE BINAIRE DE RECHERCHE/rechercher un mot dans un a
+rbre binaire de recherche en python.pdf
+ create mode 100644 "Program Python MARIO/Exemples PYTHON/RSA et ARBRE BINAIRE p
+ython/ins\303\251rrer un mot dans un arbre binaire de recherche en python.docx"
+ create mode 100644 "Program Python MARIO/Exemples PYTHON/RSA et ARBRE BINAIRE p
+ython/ins\303\251rrer un mot dans un arbre binaire de recherche en python.pdf"
+ create mode 100644 Program Python MARIO/Exemples PYTHON/distance de Levenshtein
+ PYTHON/distance de Levenshtein PYTHON.txt
+ create mode 100644 Program Python MARIO/Exemples PYTHON/distance de Levenshtein
+ PYTHON/main_distance_de_Levenshtein_1_BIBLIOTHEQUE_Python.py
+ create mode 100644 Program Python MARIO/Exemples PYTHON/distance de Levenshtein
+ PYTHON/main_distance_de_Levenshtein_METHODE_2_ALGORITHME.py
+ create mode 100644 Program Python MARIO/Exemples PYTHON/editeur PYTHON en ligne
+.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Enumerating objects: 47, done.
+Counting objects: 100% (47/47), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (45/45), done.
+Writing objects: 100% (45/45), 4.46 MiB | 132.00 KiB/s, done.
+Total 45 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+To github.com:Mariogit20/LOGICIEL-PyQt6-COURS.git
+   135c5cb..891c397  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "ajout fichiers 2"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "ajout fichiers 3"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "ajout fichiers 4"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "ajout fichiers 5"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "ajout fichiers 7"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$

@@ -1,0 +1,299 @@
+A] INSTALLATION de DJANGO :
+PREMIEREMENT, on """"ENTRE"""" dans le """"REPERTOIRE DE L'ORDINATEUR"""" où l'on désire """"CREER le NOUVEAU PROJET DJANGO"""" : 
+DEUXIEMEMENT, on """"SAISIT"""" dans l'    """"URL""""    du    """"REPERTOIRE DE L'ORDINATEUR où l'on désire CREER le NOUVEAU PROJET DJANGO"""" ::::::::::
+cmd
+
+BUT RECHERCHE =========> """"""""""INSTALLATION de DJANGO"""""""""" dans l' """"""""""ESPACE VIRTUEL"""""""""" nommé """"env"""" de DJANGO
+BUT RECHERCHE =========> """"""""""INSTALLATION de DJANGO"""""""""" dans l' """"""""""ESPACE VIRTUEL"""""""""" nommé """"env"""" de DJANGO
+BUT RECHERCHE =========> """"""""""INSTALLATION de DJANGO"""""""""" dans l' """"""""""ESPACE VIRTUEL"""""""""" nommé """"env"""" de DJANGO
+BUT RECHERCHE =========> """"""""""INSTALLATION de DJANGO"""""""""" dans l' """"""""""ESPACE VIRTUEL"""""""""" nommé """"env"""" de DJANGO
+BUT RECHERCHE =========> """"""""""INSTALLATION de DJANGO"""""""""" dans l' """"""""""ESPACE VIRTUEL"""""""""" nommé """"env"""" de DJANGO
+BUT RECHERCHE =========> """"""""""INSTALLATION de DJANGO"""""""""" dans l' """"""""""ESPACE VIRTUEL"""""""""" nommé """"env"""" de DJANGO
+BUT RECHERCHE =========> """"""""""INSTALLATION de DJANGO"""""""""" dans l' """"""""""ESPACE VIRTUEL"""""""""" nommé """"env"""" de DJANGO
+
+Pour """"OUVRIR"""" le """"TERMINAL"""" de """"VISUAL STUDIO CODE"""" ou """"VSCode"""" ::::::::::
+Pour """"OUVRIR"""" le """"TERMINAL    CTRL J""""    de    """"DJANGO"""" ::::::::::
+CTRL   J
+
+
+
+Pour """"OUVRIR"""" le """"TERMINAL"""" de """"VISUAL STUDIO CODE"""" ou """"VSCode"""" ::::::::::
+Pour """"OUVRIR"""" le """"TERMINAL    CTRL J""""    de    """"DJANGO"""" ::::::::::
+CTRL   J
+
+
+
+""""CREATION"""" d'un """"NOUVEAU DOSSIER"""" nommé """"Nom_de_dossier"""" :
+. creer dossier: mkdir Nom_de_dossier
+
+""""ENTRER"""" dans le """"NOUVEAU DOSSIER"""" nommé """"Nom_de_dossier"""" :
+. cd Nom_de_dossier
+
+""""CREATION"""" de l'ENVIRONNEMENT VIRTUEL """"env"""" de DJANGO ::::::::::::
+(venv) PS D:\PYTHON DJANGO HOPES\API-Routier> py -m venv venv
+.python -m venv env
+
+A.1] """"ACTIVATION"""" de l'ENVIRONNEMENT VIRTUEL """"env"""" de DJANGO ::::::::::::
+.activer environnement : env\scripts\activate
+D:\PYTHON DJANGO HOPES\Projet_Transport_Mario> env\scripts\activate
+
+.(env)
+""""INSTALLATION"""" de DJANGO ::::::::::::
+.pip install django
+
+""""VERIFIER"""" si """"DJANGO a bien été installé"""" ::::::::::::
+(env) PS D:\PYTHON DJANGO HOPES\Projet_Transport_Mario> pip show django
+
+""""AFFICHER"""" la """"VERSION de DJANGO"""" qui a été installé ::::::::::::
+""""AFFICHER"""" la """"VERSION de DJANGO"""" qui a été installé ::::::::::::
+.django-admin --version
+
+""""AFFICHER"""" la """"VERSION de DJANGO"""" qui a été installé ::::::::::::
+""""AFFICHER"""" la """"VERSION de DJANGO"""" qui a été installé ::::::::::::
+D:\PYTHON DJANGO HOPES\Projet_django\site_ecole> django-admin --version
+
+A.2] """"CREATION"""" d'un """"NOUVEAU PROJET"""" django NOMME """"monsite"""" ::::::::::::
+.django-admin startproject monsite
+
+""""CREATION"""" d'un """"NOUVEAU PROJET DJANGO"""" nommé """"Projet_django"""" ::::::::::::
+D:\PYTHON DJANGO HOPES> django-admin startproject Projet_django
+
+""""ENTRER"""" dans le """"REPERTOIRE"""" nommé """"monsite"""" ::::::::::::
+.cd monsite
+
+""""OUVRIR"""" le """"logiciel de développement"""" nommé """"VISUAL STUDIO CODE"""" ou """"VSCode"""" à partir le l'   """"INVITE DE COMMANDE de WINDOWS"""" ::::::::::::
+.ouvrir dans vscode : code .
+
+
+
+Pour """"OUVRIR"""" le """"TERMINAL"""" de """"VISUAL STUDIO CODE"""" ou """"VSCode"""" ::::::::::
+Pour """"OUVRIR"""" le """"TERMINAL    CTRL J""""    de    """"DJANGO"""" ::::::::::
+Pour """"OUVRIR"""" le """"TERMINAL    CTRL J""""    de    """"DJANGO"""" ::::::::::
+Pour """"OUVRIR"""" le """"TERMINAL    CTRL J""""    de    """"DJANGO"""" ::::::::::
+Pour """"OUVRIR"""" le """"TERMINAL    CTRL J""""    de    """"DJANGO"""" ::::::::::
+CTRL   J
+
+
+
+Pour """"LANCER le Projet DJANGO"""" c'est-à-dire """"EXECUTER le SERVEUR DJANGO"""" ( PUIS APRES avoir """"EXECUTER le SERVEUR DJANGO"""" , on """"SAISIT ENSUITE"""" dans le """"NAVIGATEUR Mozilla Firefox"""" ====>    Starting development server at http://127.0.0.1:8000/    )    ::::::::::::::::::::::::::::::::::::
+Pour """"LANCER le Projet DJANGO"""" c'est-à-dire """"EXECUTER le SERVEUR DJANGO"""" ( PUIS APRES avoir """"EXECUTER le SERVEUR DJANGO"""" , on """"SAISIT ENSUITE"""" dans le """"NAVIGATEUR Mozilla Firefox"""" ====>    Starting development server at http://127.0.0.1:8000/    )    ::::::::::::::::::::::::::::::::::::
+Pour """"LANCER le Projet DJANGO"""" c'est-à-dire """"EXECUTER le SERVEUR DJANGO"""" ( PUIS APRES avoir """"EXECUTER le SERVEUR DJANGO"""" , on """"SAISIT ENSUITE"""" dans le """"NAVIGATEUR Mozilla Firefox"""" ====>    Starting development server at http://127.0.0.1:8000/    )    ::::::::::::::::::::::::::::::::::::
+Pour """"LANCER le Projet DJANGO"""" c'est-à-dire """"EXECUTER le SERVEUR DJANGO"""" ( PUIS APRES avoir """"EXECUTER le SERVEUR DJANGO"""" , on """"SAISIT ENSUITE"""" dans le """"NAVIGATEUR Mozilla Firefox"""" ====>    Starting development server at http://127.0.0.1:8000/    )    ::::::::::::::::::::::::::::::::::::
+Pour """"LANCER le Projet DJANGO"""" c'est-à-dire """"EXECUTER le SERVEUR DJANGO"""" ( PUIS APRES avoir """"EXECUTER le SERVEUR DJANGO"""" , on """"SAISIT ENSUITE"""" dans le """"NAVIGATEUR Mozilla Firefox"""" ====>    Starting development server at http://127.0.0.1:8000/    )    ::::::::::::::::::::::::::::::::::::
+Pour """"LANCER le Projet DJANGO"""" c'est-à-dire """"EXECUTER le SERVEUR DJANGO"""" ( PUIS APRES avoir """"EXECUTER le SERVEUR DJANGO"""" , on """"SAISIT ENSUITE"""" dans le """"NAVIGATEUR Mozilla Firefox"""" ====>    Starting development server at http://127.0.0.1:8000/    )    ::::::::::::::::::::::::::::::::::::
+Pour """"LANCER le Projet DJANGO"""" c'est-à-dire """"EXECUTER le SERVEUR DJANGO"""" ( PUIS APRES avoir """"EXECUTER le SERVEUR DJANGO"""" , on """"SAISIT ENSUITE"""" dans le """"NAVIGATEUR Mozilla Firefox"""" ====>    Starting development server at http://127.0.0.1:8000/    )    ::::::::::::::::::::::::::::::::::::
+D:\PYTHON DJANGO HOPES\Projet_django\site_ecole> python manage.py runserver
+
+
+
+
+
+Pour """"AFFICHER    TOUTES LES MODULES""""    qui sont """"PRESENTES   dans l'   ENVIRONNEMENT VIRTUEL venv""""    de    DJANGO ::::::::
+(venv) PS D:\PYTHON DRF BACKEND> pip list
+Package             Version
+asgiref             3.10.0
+Django              5.2.7
+django-cors-headers 4.9.0
+djangorestframework 3.16.1
+pillow              12.0.0
+pip                 25.2
+sqlparse            0.5.3
+tzdata              2025.2
+
+Pour    """"VOIR EN DETAIL""""    le    """"CONTENU""""    du    MODULE    """"django-cors-headers""""   qui a été """"installé dans    DJANGO"""" ::::::::
+(venv) PS D:\PYTHON DRF BACKEND> pip show django-cors-headers
+Name: django-cors-headers
+Version: 4.9.0
+rver headers required for Cross-Origin Resource Sharing (CORS).
+Home-page:
+Author:
+Author-email: Otto Yiu <otto@live.ca>
+License-Expression: MIT
+Location: D:\PYTHON DRF BACKEND\venv\Lib\site-packages
+Requires: asgiref, django
+
+
+
+
+
+
+pip3 install --upgrade pip
+pip3 install --upgrade pip
+
+pip uninstall PyQt5
+pip install PyQt6
+
+Pour faire la """"MANIPULATION des IMAGES"""" avec PYTHON , on utilise le module      """"pillow"""" ::::::::::::
+pip uninstall pillow
+pip install pillow
+
+Pour    """"VERIFIER si l'   INSTALLATION""""    du module    """"pillow""""    a correctement réussi     dans le """"TERMINAL    CTRL J""""    de    """"DJANGO"""" :
+pip show pillow
+
+Installation du module      """"plotly""""     dans le """"TERMINAL    CTRL J""""    de    """"DJANGO"""" :
+pip install --force-reinstall --upgrade plotly
+pip install --force-reinstall --upgrade plotly
+
+
+
+
+
+
+B] UTILISATION de DJANGO :
+etape a faire : . cd Nom_de_dossier
+. cd Nom_de_dossier
+..activer environnement : D:\PYTHON DJANGO HOPES\Projet_django\site_ecole> env\scripts\activate
+
+Si il y a une """"ERREUR QUI SE PRODUIT"""" quand on TAPE la COMMANDE suivante :
+env\scripts\activate        , car    l'EXECUTION DE CE SCRIPT EST BLOQUE (ERREUR En ROUGE)
+alors on SAISIT  la COMMANDE suivante dans le     TERMINAL ( CTRL J )   de   DJANGO :
+D:\PYTHON DJANGO HOPES\Projet_django\site_ecole> Set-ExecutionPolicy Unrestricted -scope CurrentUser -force
+
+""""A TAPER la COMMANDE"""" suivante s'IL Y A UN     BLOCAGE DE SCRIPT    /    ERREUR    APRES AVOIR TAPER dans le TERMINAL de DJANGO    CTRL J    suivi de la COMMANDE    ..activer environnement : env\scripts\activate       :
+D:\PYTHON DJANGO HOPES\Projet_django\site_ecole> Set-ExecutionPolicy Unrestricted -scope CurrentUser -force
+
+
+""""CREATION"""" du """"NOUVEAU PROJET"""" django NOMME """"monsite"""" ::::::::::::
+.django-admin startproject monsite
+
+""""CREATION"""" du """"NOUVEAU PROJET"""" django NOMME """"site_ecole"""" ::::::::::::
+D:\PYTHON DJANGO HOPES\Projet_django> django-admin startproject site_ecole
+
+Pour """"ENTRER"""" dans le """"REPERTOIRE de DJANGO"""" nommé """"site_ecole"""" ::::::::::::
+.cd site_ecole
+D:\PYTHON DJANGO HOPES\Projet_django> cd site_ecole
+
+Pour """"OUVRIR"""" le logiciel de développement """"VISUAL STUDIO CODE ou VSCode"""" ::::::::::::
+.ouvrir dans vscode =======> code .
+D:\PYTHON DJANGO HOPES\Projet_django\site_ecole> code .
+
+
+""""LANCER"""" le """"SERVEUR DE DJANGO"""" , c'est-à-dire """"LANCER"""" le """"SITE WEB de DJANGO"""" ::::::::::::
+D:\PYTHON DJANGO HOPES\Projet_django\site_ecole> python manage.py runserver
+
+
+""""CREATION"""" d'une """"NOUVELLE APPLICATION"""" django NOMME """"app_acceuil"""" ::::::::::::
+""""CREATION"""" d'une """"NOUVELLE APPLICATION"""" django NOMME """"app_acceuil"""" ::::::::::::
+D:\PYTHON DJANGO HOPES\Projet_django\site_ecole> python manage.py startapp app_acceuil
+
+""""CREATION"""" d'une """"NOUVELLE APPLICATION"""" django NOMME """"app_contact"""" ::::::::::::
+""""CREATION"""" d'une """"NOUVELLE APPLICATION"""" django NOMME """"app_contact"""" ::::::::::::
+D:\PYTHON DJANGO HOPES\Projet_django\site_ecole> python manage.py startapp app_contact
+
+
+""""CREER"""" le FICHIER nommé   """"index.html""""   dans le DOSSIER nommé   """"templates""""  
+""""CREER"""" le DOSSIER nommé   """"templates""""    CONTENANT le FICHIER nommé   """"index.html""""
+
+
+C] Avant de     """"CREER le SUPER UTILISATEUR""""    , il faut taper la COMMANDE suivante ::::::::::::
+MIGRATION DE DONNEES vers la BASE DE DONNEES ::::::::::::
+python manage.py migrate
+
+""""CREATION""""     d'un    """"SUPER UTILISATEUR"""" ::::::::::::
+python manage.py createsuperuser
+
+LOGIN:    Mario
+EMAIL:    halleymariomen@gmail.com
+PASSWORD:    Mario
+
+Ensuite, on      """"OUVRE""""      la      """"PAGE D'ADMINISTRATEUR""""      suivante    ( """"PAGE D'ADMINISTRATION"""" de DJANGO )    ::::::::::::
+http://127.0.0.1:8000/admin
+
+C.1] """"LISTER"""" la """"LISTE des MODULES"""" qui sont déjà """"installés"""" dans DJANGO ::::::::::::
+D:\PYTHON DJANGO HOPES\Projet_django_MARIO\site_ecole>pip list
+
+C.2] """"VERIFIER"""" si le MODULE """"pillow"""" EST DEJA """"INSTALLE"""" ::::::::::::
+D:\PYTHON DJANGO HOPES\Projet_django_MARIO\site_ecole>pip show pillow
+
+INSTALLER le MODULE     """"pillow""""     dans l'     """"ENVIRONNEMENT GLOBAL""""   DE   """"DJANGO"""" ::::::::::::
+D:\PYTHON DJANGO HOPES\Projet_django_MARIO\site_ecole>pip install pillow
+
+""""EXPLICATION"""" du     """"MODEL VUE TEMPLATE (MVT)""""     de     """"DJANGO"""" :
+Models : BD , Action Administrateur , INFORMATIONS A STOCKER dans la BASE DE DONNEES !		C'est le FICHIER    """"models.py""""    pour    """"CREER"""" TOUTES les """"TABLES"""" contenues dans la """"BASE DE DONNEES"""" SQLite , par exemple !!!!!!!!!!
+Views : C'est le FICHIER    """"views.py""""    qui agit comme INTERMEDIAIRE entre le    """"models.py""""   et  TOUTES les """"Formulaires HTML   ( Fichiers .html )"""" !!!!!!!!!!
+Templates : Formulaires HTML   ( Fichiers .html )
+
+
+""""CREER"""" le FICHIER nommé   """"index.html""""   dans le DOSSIER nommé   """"templates""""  
+""""CREER"""" le DOSSIER nommé   """"templates""""    CONTENANT le FICHIER nommé   """"index.html""""
+
+
+E.1] On SAISI ou MODIFIER LE MODELE
+
+E.2] CREER la MIGRATION après avoir SAISI ou MODIFIER dans le MODELE :
+""""CREATION de TOUTES LES DIFFERENTES TABLES"""" correspondantes aux MODELES contenus dans les FICHIERS DJANGO """"models.py"""" ::::::::::::
+py manage.py makemigrations
+python manage.py migrate
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+index.html
+
+{% extends 'layouts/master.html %}
+
+{% block "title" %}
+coffee
+{% endblock "title" %}
+
+{% block 'desc' %}
+shgfgjfdgdfhghfgkmlkmlkmlklmkmlklmkmlksdfsdfdsfdfrtertt
+description du site pour faciliter les recherches et mettre en évidence le site
+
+REMARQUE IMPORTANTE : La	DESCRIPTION DE Chaque PAGE composant le SITE WEB	   peut être     PLACEE DANS     Chaque PAGE     du Site Web
+
+La     DESCRIPTION DE Chaque PAGE      ainsi que    le     TITRE DE Chaque PAGE    est UTILISE par le MOTEUR DE RECHERCHE Google lorsque le 	MOTEUR DE RECHERCHE Google EFFECTUE UNE RECHERCHE
+{% endblock 'desc' %}
+
+{% block "contenue" %}
+<div class="banner_section
+{% endblock "contenue" %}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+A    """"INSTALLER""""    dans    """"VISUAL STUDIO CODE (VSCode)""""   afin de   """"VISUALISER"""" la """"BASE DE DONNEES   SQLite""""   de   DJANGO ::::::::::
+SQLite3 Editor    :    """"EXTENSION"""" dans    """"VISUAL STUDIO CODE (VSCode)""""      pour     """"AFFICHER"""" LA     """"BASE DE DONNEES    SQLite""""     DE     DJANGO    dans    """"VISUAL STUDIO CODE    VSCode""""
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+E.3] """"CREATION"""" et """"UTILISATION"""" du FICHIER nommé """"requirements.txt"""" dans DJANGO à l'aide du """"TERMINAL    CTRL J""""    de    """"VISUAL STUDIO CODE (VSCode)"""" :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Pour """"CREER"""" le """"FICHIER DE SAUVEGARDE"""" des """"DIFFERENTES MODULES utilisées par DJANGO"""" nommé """"requirements.txt"""" ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Pour """"CREER"""" le """"FICHIER DE SAUVEGARDE"""" des """"DIFFERENTES MODULES utilisées par DJANGO"""" nommé """"requirements.txt"""" ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Pour """"CREER"""" le """"FICHIER DE SAUVEGARDE"""" des """"DIFFERENTES MODULES utilisées par DJANGO"""" nommé """"requirements.txt"""" ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Pour """"CREER"""" le """"FICHIER DE SAUVEGARDE"""" des """"DIFFERENTES MODULES utilisées par DJANGO"""" nommé """"requirements.txt"""" ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+(venv) PS D:\PYTHON DJANGO HOPES\API-Routier> pip freeze > requirements.txt
+
+Pour """"UTILISER"""" le """"FICHIER DE SAUVEGARDE"""" des """"DIFFERENTES MODULES utilisées par DJANGO"""" nommé """"requirements.txt"""" ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Pour """"UTILISER"""" le """"FICHIER DE SAUVEGARDE"""" des """"DIFFERENTES MODULES utilisées par DJANGO"""" nommé """"requirements.txt"""" ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Pour """"UTILISER"""" le """"FICHIER DE SAUVEGARDE"""" des """"DIFFERENTES MODULES utilisées par DJANGO"""" nommé """"requirements.txt"""" ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Pour """"UTILISER"""" le """"FICHIER DE SAUVEGARDE"""" des """"DIFFERENTES MODULES utilisées par DJANGO"""" nommé """"requirements.txt"""" ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+(venv) PS D:\PYTHON DJANGO HOPES\API-Routier> pip install -r requirements.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

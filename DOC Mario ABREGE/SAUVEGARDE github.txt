@@ -1,0 +1,538 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github22/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22 (master)
+$ git clone https://github.com/Mariogit20/LOGICIEL-PyQt6-COURS.git
+Cloning into 'LOGICIEL-PyQt6-COURS'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22 (master)
+$ cd "LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (main)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (main)
+$ gt commit -m "Ajout gitignore"
+bash: gt: command not found
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (main)
+$ git commit -m "Ajout gitignore"
+[main 2ec9b79] Ajout gitignore
+ 1 file changed, 2 insertions(+)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (main)
+$ git push
+remote: Permission to Arsene-Faly/DEV_JEUX_PYQT.git denied to Mariogit20.
+fatal: unable to access 'https://github.com/Arsene-Faly/DEV_JEUX_PYQT.git/': The
+ requested URL returned error: 403
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (main)
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQ
+t6-COURS/DEV_JEUX_PYQT/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (master)
+$ git clone https://github.com/Mariogit20/LOGICIEL-PyQt6-COURS.git
+Cloning into 'LOGICIEL-PyQt6-COURS'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (master)
+$ rm -rf LOGICIEL-PyQt6-COURS
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS/DEV_JEUX_PYQT (master)
+$ rm -rf .git  # Cela casse le lien vers Arsene-Faly
+cd ..        # Remonter d'un niveau vers votre dossier LOGICIEL principal
+git add DEV_JEUX_PYQT/
+git commit -m "Ajout du dossier jeux"
+git push origin master
+[main 4c01338] Ajout du dossier jeux
+ 34 files changed, 821 insertions(+)
+ create mode 100644 DEV_JEUX_PYQT/.gitignore
+ create mode 100644 DEV_JEUX_PYQT/Les_Widgets.txt
+ create mode 100644 DEV_JEUX_PYQT/QMAinWindowPosition.txt
+ create mode 100644 DEV_JEUX_PYQT/Readme.txt
+ create mode 100644 DEV_JEUX_PYQT/StructureQV_QH.txt
+ create mode 100644 DEV_JEUX_PYQT/requirements.txt
+ create mode 100644 DEV_JEUX_PYQT/steps1/app.py
+ create mode 100644 DEV_JEUX_PYQT/steps1/assets/images/favicon.ico
+ create mode 100644 DEV_JEUX_PYQT/steps1/assets/style.qss
+ create mode 100644 DEV_JEUX_PYQT/steps1/main.py
+ create mode 100644 DEV_JEUX_PYQT/steps2/app.py
+ create mode 100644 DEV_JEUX_PYQT/steps2/assets/images/favicon.ico
+ create mode 100644 DEV_JEUX_PYQT/steps2/assets/style.qss
+ create mode 100644 DEV_JEUX_PYQT/steps2/main.py
+ create mode 100644 DEV_JEUX_PYQT/steps3/app.py
+ create mode 100644 DEV_JEUX_PYQT/steps3/assets/images/favicon.ico
+ create mode 100644 DEV_JEUX_PYQT/steps3/assets/style.qss
+ create mode 100644 DEV_JEUX_PYQT/steps3/main.py
+ create mode 100644 DEV_JEUX_PYQT/steps4/app.py
+ create mode 100644 DEV_JEUX_PYQT/steps4/assets/images/favicon.ico
+ create mode 100644 DEV_JEUX_PYQT/steps4/assets/style.qss
+ create mode 100644 DEV_JEUX_PYQT/steps4/main.py
+ create mode 100644 DEV_JEUX_PYQT/steps5/app.py
+ create mode 100644 DEV_JEUX_PYQT/steps5/assets/images/favicon.ico
+ create mode 100644 DEV_JEUX_PYQT/steps5/assets/style.qss
+ create mode 100644 DEV_JEUX_PYQT/steps5/main.py
+ create mode 100644 DEV_JEUX_PYQT/steps6/app.py
+ create mode 100644 DEV_JEUX_PYQT/steps6/assets/images/favicon.ico
+ create mode 100644 DEV_JEUX_PYQT/steps6/assets/style.qss
+ create mode 100644 DEV_JEUX_PYQT/steps6/main.py
+ create mode 100644 DEV_JEUX_PYQT/steps7/app.py
+ create mode 100644 DEV_JEUX_PYQT/steps7/assets/images/favicon.ico
+ create mode 100644 DEV_JEUX_PYQT/steps7/assets/style.qss
+ create mode 100644 DEV_JEUX_PYQT/steps7/main.py
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Mariogit20/LOGICIEL-PyQt6
+-COURS.git'
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push origin main
+Enumerating objects: 39, done.
+Counting objects: 100% (39/39), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (36/36), done.
+Writing objects: 100% (38/38), 11.14 KiB | 1.11 MiB/s, done.
+Total 38 (delta 9), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (9/9), done.
+To https://github.com/Mariogit20/LOGICIEL-PyQt6-COURS.git
+   03d0955..4c01338  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add "DOCUMENT Mario"/
+git commit -m "Ajout du dossier DOCUMENT Mario"
+git push origin main
+[main f2584df] Ajout du dossier DOCUMENT Mario
+ 22 files changed, 3192 insertions(+)
+ create mode 100644 DOCUMENT Mario/1DJANGO ETAPES A SUIVRE installation DJANGO o
+k.txt
+ create mode 100644 DOCUMENT Mario/1DJANGO ETAPES A SUIVRE installation DJANGO s
+uite.txt
+ create mode 100644 DOCUMENT Mario/1DJANGO ETAPES A SUIVRE installation DJANGO.t
+xt
+ create mode 100644 DOCUMENT Mario/2CREATION d'un LOGICIEL PYTHON avec PYQT6 et
+Qt Designer - VERSION2.txt
+ create mode 100644 "DOCUMENT Mario/3INSTALLATION du CSS AVANCE c-\303\240-d de
+SASS.txt"
+ create mode 100644 DOCUMENT Mario/API - DJANGO REST FRAMEWORK.txt
+ create mode 100644 DOCUMENT Mario/API - INSTALL DjangoRestFramework.txt
+ create mode 100644 DOCUMENT Mario/COURS sass.txt
+ create mode 100644 DOCUMENT Mario/DJANGO REST FRAMEWORK api.txt
+ create mode 100644 DOCUMENT Mario/DJANGO python.txt
+ create mode 100644 DOCUMENT Mario/FORMULAIRE NATIF de DJANGO.txt
+ create mode 100644 DOCUMENT Mario/INSTALLATION API django.txt
+ create mode 100644 DOCUMENT Mario/Installation DJANGO de Python MICKAEL Hopes F
+ormation.txt
+ create mode 100644 DOCUMENT Mario/calculatrice_simple_clavier.docx
+ create mode 100644 DOCUMENT Mario/calculatrice_simple_clavier.exe
+ create mode 100644 DOCUMENT Mario/calculatrice_simple_clavier.mkv
+ create mode 100644 DOCUMENT Mario/calculatrice_simple_clavier.pdf
+ create mode 100644 DOCUMENT Mario/gemini 3.1 PRO.docx
+ create mode 100644 DOCUMENT Mario/gemini 3.1 PRO.pdf
+ create mode 100644 DOCUMENT Mario/github - ORDINATEUR vers GITHUB - SAUVEGARDE
+DANS github.txt
+ create mode 100644 DOCUMENT Mario/maildev.txt
+ create mode 100644 DOCUMENT Mario/pyth.txt
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (22/22), 277.06 MiB | 22.37 MiB/s, done.
+Total 22 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git reset HEAD~1
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git lfs install
+Updated Git hooks.
+Git LFS initialized.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git lfs track "*.mkv"
+git lfs track "*.exe"
+Tracking "*.mkv"
+Tracking "*.exe"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .gitattributes
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add "DOCUMENT Mario"/
+git commit -m "Ajout du dossier avec vidéo et exe via Git LFS"
+git push origin main
+[main d2b5600] Ajout du dossier avec vidéo et exe via Git LFS
+ 23 files changed, 3200 insertions(+)
+ create mode 100644 .gitattributes
+ create mode 100644 DOCUMENT Mario/1DJANGO ETAPES A SUIVRE installation DJANGO o
+k.txt
+ create mode 100644 DOCUMENT Mario/1DJANGO ETAPES A SUIVRE installation DJANGO s
+uite.txt
+ create mode 100644 DOCUMENT Mario/1DJANGO ETAPES A SUIVRE installation DJANGO.t
+xt
+ create mode 100644 DOCUMENT Mario/2CREATION d'un LOGICIEL PYTHON avec PYQT6 et
+Qt Designer - VERSION2.txt
+ create mode 100644 "DOCUMENT Mario/3INSTALLATION du CSS AVANCE c-\303\240-d de
+SASS.txt"
+ create mode 100644 DOCUMENT Mario/API - DJANGO REST FRAMEWORK.txt
+ create mode 100644 DOCUMENT Mario/API - INSTALL DjangoRestFramework.txt
+ create mode 100644 DOCUMENT Mario/COURS sass.txt
+ create mode 100644 DOCUMENT Mario/DJANGO REST FRAMEWORK api.txt
+ create mode 100644 DOCUMENT Mario/DJANGO python.txt
+ create mode 100644 DOCUMENT Mario/FORMULAIRE NATIF de DJANGO.txt
+ create mode 100644 DOCUMENT Mario/INSTALLATION API django.txt
+ create mode 100644 DOCUMENT Mario/Installation DJANGO de Python MICKAEL Hopes F
+ormation.txt
+ create mode 100644 DOCUMENT Mario/calculatrice_simple_clavier.docx
+ create mode 100644 DOCUMENT Mario/calculatrice_simple_clavier.exe
+ create mode 100644 DOCUMENT Mario/calculatrice_simple_clavier.mkv
+ create mode 100644 DOCUMENT Mario/calculatrice_simple_clavier.pdf
+ create mode 100644 DOCUMENT Mario/gemini 3.1 PRO.docx
+ create mode 100644 DOCUMENT Mario/gemini 3.1 PRO.pdf
+ create mode 100644 DOCUMENT Mario/github - ORDINATEUR vers GITHUB - SAUVEGARDE
+DANS github.txt
+ create mode 100644 DOCUMENT Mario/maildev.txt
+ create mode 100644 DOCUMENT Mario/pyth.txt
+Uploading LFS objects: 100% (2/2), 300 MB | 120 KB/s, done.
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (23/23), 708.41 KiB | 5.17 MiB/s, done.
+Total 23 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/Mariogit20/LOGICIEL-PyQt6-COURS.git
+   4c01338..d2b5600  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "mon commit"
+[main c850bed] mon commit
+ 59 files changed, 22473 insertions(+), 1 deletion(-)
+ create mode 100644 Cours PyQt6.txt
+ rename DOCUMENT Mario/{Installation DJANGO de Python MICKAEL Hopes Formation.tx
+t => Installation DJANGO de Python.txt} (99%)
+ create mode 100644 EXO/BOUTON_INCREMENTE/.gitignore
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier.docx
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier.pdf
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/assets/ima
+ges/favicon.ico
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/assets/sty
+le.qss
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/Analysis-00.toc
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/EXE-00.toc
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/PKG-00.toc
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/PYZ-00.pyz
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/PYZ-00.toc
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/base_library.zip
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/localpycs/pyimod01_archive.pyc
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/localpycs/pyimod02_importers.pyc
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/localpycs/pyimod03_ctypes.pyc
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/localpycs/pyimod04_pywin32.pyc
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/localpycs/struct.pyc
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/main.pkg
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/warn-main.txt
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/main
+/xref-main.html
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/dist/main.
+exe
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/main.py
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/main.spec
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_souris/assets/imag
+es/favicon.ico
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_souris/main.py
+ create mode 100644 EXO/BOUTON_INCREMENTE/incrementation/__pycache__/app.cpython
+-312.pyc
+ create mode 100644 EXO/BOUTON_INCREMENTE/incrementation/app.py
+ create mode 100644 EXO/BOUTON_INCREMENTE/incrementation/assets/images/favicon.i
+co
+ create mode 100644 EXO/BOUTON_INCREMENTE/incrementation/assets/style.qss
+ create mode 100644 EXO/BOUTON_INCREMENTE/incrementation/main.py
+ create mode 100644 EXO/BOUTON_INCREMENTE/requirements.txt
+ create mode 100644 EXO2/BOUTON_INCREMENTE/.gitignore
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier.docx
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier.pdf
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/assets/im
+ages/favicon.ico
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/assets/st
+yle.qss
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/mai
+n/Analysis-00.toc
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/mai
+n/EXE-00.toc
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/mai
+n/PKG-00.toc
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/mai
+n/PYZ-00.pyz
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/mai
+n/PYZ-00.toc
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/mai
+n/base_library.zip
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/mai
+n/main.pkg
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/mai
+n/warn-main.txt
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/build/mai
+n/xref-main.html
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/dist/calc
+ulatrice_simple_clavier.exe
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/dist/main
+.exe
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/main.py
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/main.spec
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_souris/assets/ima
+ges/favicon.ico
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_souris/main.py
+ create mode 100644 EXO2/BOUTON_INCREMENTE/incrementation/app.py
+ create mode 100644 EXO2/BOUTON_INCREMENTE/incrementation/assets/images/favicon.
+ico
+ create mode 100644 EXO2/BOUTON_INCREMENTE/incrementation/assets/style.qss
+ create mode 100644 EXO2/BOUTON_INCREMENTE/incrementation/main.py
+ create mode 100644 EXO2/BOUTON_INCREMENTE/requirements.txt
+ create mode 100644 github - GITHUB vers ORDI - MAJ d un DOSSIER sur ORDI depuis
+ Github AVEC git pull.txt
+ create mode 100644 github - ORDINATEUR vers GITHUB - SAUVEGARDE DANS github.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Uploading LFS objects: 100% (1/1), 37 MB | 69 KB/s, done.
+Enumerating objects: 65, done.
+Counting objects: 100% (65/65), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (53/53), done.
+Writing objects: 100% (63/63), 42.80 MiB | 15.81 MiB/s, done.
+Total 63 (delta 15), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git reset HEAD~1
+Unstaged changes after reset:
+D       DOCUMENT Mario/Installation DJANGO de Python MICKAEL Hopes Formation.txt
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ echo "build/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.zip" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo "*.pyz" >> .gitignore
+echo "*.pkg" >> .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+git commit -m "Ajout des exercices sans les fichiers lourds de compilation"
+git push origin main
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the ne
+xt time Git touches it
+[main 7b2c2a9] Ajout des exercices sans les fichiers lourds de compilation
+ 36 files changed, 1170 insertions(+), 1 deletion(-)
+ create mode 100644 .gitignore
+ create mode 100644 Cours PyQt6.txt
+ rename DOCUMENT Mario/{Installation DJANGO de Python MICKAEL Hopes Formation.tx
+t => Installation DJANGO de Python.txt} (99%)
+ create mode 100644 EXO/BOUTON_INCREMENTE/.gitignore
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier.docx
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier.pdf
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/assets/ima
+ges/favicon.ico
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/assets/sty
+le.qss
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/dist/main.
+exe
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/main.py
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_clavier/main.spec
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_souris/assets/imag
+es/favicon.ico
+ create mode 100644 EXO/BOUTON_INCREMENTE/calculatrice_simple_souris/main.py
+ create mode 100644 EXO/BOUTON_INCREMENTE/incrementation/app.py
+ create mode 100644 EXO/BOUTON_INCREMENTE/incrementation/assets/images/favicon.i
+co
+ create mode 100644 EXO/BOUTON_INCREMENTE/incrementation/assets/style.qss
+ create mode 100644 EXO/BOUTON_INCREMENTE/incrementation/main.py
+ create mode 100644 EXO/BOUTON_INCREMENTE/requirements.txt
+ create mode 100644 EXO2/BOUTON_INCREMENTE/.gitignore
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier.docx
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier.pdf
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/assets/im
+ages/favicon.ico
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/assets/st
+yle.qss
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/dist/calc
+ulatrice_simple_clavier.exe
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/dist/main
+.exe
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/main.py
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_clavier/main.spec
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_souris/assets/ima
+ges/favicon.ico
+ create mode 100644 EXO2/BOUTON_INCREMENTE/calculatrice_simple_souris/main.py
+ create mode 100644 EXO2/BOUTON_INCREMENTE/incrementation/app.py
+ create mode 100644 EXO2/BOUTON_INCREMENTE/incrementation/assets/images/favicon.
+ico
+ create mode 100644 EXO2/BOUTON_INCREMENTE/incrementation/assets/style.qss
+ create mode 100644 EXO2/BOUTON_INCREMENTE/incrementation/main.py
+ create mode 100644 EXO2/BOUTON_INCREMENTE/requirements.txt
+ create mode 100644 github - GITHUB vers ORDI - MAJ d un DOSSIER sur ORDI depuis
+ Github AVEC git pull.txt
+ create mode 100644 github - ORDINATEUR vers GITHUB - SAUVEGARDE DANS github.txt
+Uploading LFS objects: 100% (1/1), 37 MB | 0 B/s, done.
+Enumerating objects: 35, done.
+Counting objects: 100% (35/35), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (33/33), 12.53 KiB | 1.39 MiB/s, done.
+Total 33 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+To https://github.com/Mariogit20/LOGICIEL-PyQt6-COURS.git
+   d2b5600..7b2c2a9  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "mon commit 2"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push origin main
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "mon commit 3"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "mon commit 5"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+To https://github.com/Mariogit20/LOGICIEL-PyQt6-COURS.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Mariogit20/LOGICIEL-PyQt6
+-COURS.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 933 bytes | 4.00 KiB/s, done.
+From https://github.com/Mariogit20/LOGICIEL-PyQt6-COURS
+ * branch            main       -> FETCH_HEAD
+   7b2c2a9..87e1f7a  main       -> origin/main
+Updating 7b2c2a9..87e1f7a
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "mon commit 7"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git commit -m "mon commit 8"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github22/LOGICIEL-PyQt6-COURS (main)
+$

@@ -1,0 +1,193 @@
+CREATION d'un LOGICIEL PYTHON avec PYQT et Qt Designer :
+
+I]     PyQt6 :
+
+MYLTI PLATEFORME
+Peut être utilisé par JAVA, DJANGO, C++ ( Framework QT ) 
+
+QT : Framework utilisé par le langage C++ pour créer une INTERFACE GUI ( INTERFACE GRAPHIQUE POUR LES UTILISATEURS )
+
+AVANT tout le monde a utilisé C++ pour créer un LOGICIEL utilisant l'INTERFACE GUI
+
+PyQt6 : Utilisé par PYTHON
+
+Tkinter : Est OBSOLETE
+Tkinter : Créer une INTERFACE GRAPHIQUE avec CODER
+
+Qt Designer : Créer une INTERFACE GRAPHIQUE (INTERFACE GUI) sans CODER ; Installation préalable de PyQt6 ; Utilise des ANIMATIONS AVANCEES de GOOGLE 
+
+WORDPRESS : Créer un SITE WEB sans CODER
+
+
+
+---------------------------------- INSTALLATION des MODULLES    """"pillow""""    ET    """"PyQt6"""" ------------------------------- :::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+A] INSTALLATION du MODULE 	""""PyQt6"""" 	   AFIN de      CREER DES """"LOGICIELS"""" avec PYTHON :
+
+D:\PYTHON DJANGO HOPES\Projet_django_MARIO\site_ecole>pip install PyQt6
+
+
+B] INSTALLATION du MODULE 	""""pillow"""" 	   AFIN de 	MANIPULER LES """"IMAGES"""" avec PYTHON :
+
+D:\PYTHON DJANGO HOPES\Projet_django_MARIO\site_ecole>pip install pillow
+
+
+
+
+
+------------------ DEBUT : """"CREATION d'un NOUVEAU LOGIIEL"""" avec """"QtDesigner"""" ET """"PyQt6"""" ------------------ ::::::::::::::::::::::::::
+
+INSTALLATION de QtDesigner 
+OU BIEN    """""""""ON LANCE  QtDesigner""""""""" donc on saisit """""""""Qt"""""""""    dans le """""""""CHAMP DE RECHECHE de WINDOWS"""""""""
+New Form - Qt Designer
+
+I] Main Window :     PUIS BOUTON      ""create""
+Résultat obtenu :  On voit apparaître une NOUVELLE FENETRE nommée ""MainWindows.ui""
+On saisit :   stacked Widget
+puis on REMPLIT TOUTE LA FENETRE avec   stacked Widget
+puis MENU File puis SAVE AS
+On      ""CREE""     un      ""NOUVEAU DOSSIER""      que l'on NOMME      ""ui""
+puis on      ""ENREGISTRE LE FICHIER SOUS""      main.ui
+On ferme la FENETRE en CLIQUANT SUR la ""CROIX ROUGE"" de ""FERMETURE DE LA FENETRE""
+
+II] Widget :     PUIS BOUTON      ""create""
+
+ETAPE 1 :
+Résultat obtenu :  On voit apparaître une NOUVELLE FENETRE nommée ""Form - untitled.ui""
+puis on fait un ""CLIQUE DROITE AVEC LA SOURIS""
+puis on CHOISIT     ""Change styleSheet""
+puis on CHOISIT     ""Add Color""  ------->  ""background-color""
+puis on saisit par exemple :      background-color:rgb(33, 255, 241);
+puis on CLIQUE sur le BOUTON OK
+
+On saisit :   label
+On PLACE la   ""label""   sur la ""Widget""
+On RENOMME la   ""label""   en ""&Info label"" par exemple , en MODIFIANT LA PROPRIETE ""objectName"" en ""Info label"" par exemple !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+puis on CHOISIT     ""Change styleSheet""
+
+On saisit :   label
+On PLACE la   ""label""   sur la ""Widget""
+On RENOMME la   ""label""
+puis on fait un ""CLIQUE DROITE AVEC LA SOURIS""
+puis on CHOISIT     ""Change styleSheet""
+
+On saisit :   line edit
+On PLACE la   ""line edit""   sur la ""Widget""
+On RENOMME la   ""line edit"" , en MODIFIANT LA PROPRIETE ""objectName"" en ""inputLogin"" par exemple
+puis on fait un ""CLIQUE DROITE AVEC LA SOURIS""
+puis on CHOISIT     ""Change styleSheet""
+
+On saisit :   line edit
+On PLACE la   ""line edit""   sur la ""Widget""
+On RENOMME la   ""line edit"" , en MODIFIANT LA PROPRIETE ""objectName"" en ""inputPassword"" par exemple
+puis on fait un ""CLIQUE DROITE AVEC LA SOURIS""
+puis on CHOISIT     ""Change styleSheet""
+
+On saisit :   pushButton
+On PLACE la   ""pushButton""   sur la ""Widget""
+On RENOMME la   ""pushButton"" , en MODIFIANT LA PROPRIETE ""objectName"" en ""boutonLogin"" par exemple
+puis on fait un ""CLIQUE DROITE AVEC LA SOURIS""
+puis on CHOISIT     ""Change styleSheet""
+
+ETAPE 2 :
+On   ""SELECTIONNE ENSEMBLE avec la SOURIS""   la   ""label""   et la   ""line edit"" 
+puis on va dans le   ""Menu Edit ---> Edit Buddies""
+puis on CLIQUE ensuite sur la   ""label""   qui a maintenant une BORDURE ROUGE
+puis on ""MAINTIENT ENFONCE"" LE ""BOUTON GAUCHE DE LA SOURIS SANS LE RELACHER""
+puis on DEPLACE LA SOURIS depuis la   ""label""   vers la   ""line edit""   qui a également maintenant une BORDURE ROUGE 
+alors on ""REMARQUE l'EXISTENCE"" d'UNE ""FLECHE ROUGE"" qui PART DE   la   ""label""   vers la   ""line edit""   
+
+ETAPE 3 :
+On CLIQUE ensuite sur le ""BOUTON"" DE LA BARRE DES TACHES   ""Edit Widgets""
+
+ETAPE 4 :
+On saisit :   spacer
+puis on CHOISIT     ""Horizontal Spacer""
+puis on PLACE     ""Horizontal Spacer""     A COTE DE   ""pushButton""
+
+ETAPE 5 :    ALIGNER HORIZONTALEMENT   ""pushButton""    AVEC    ""Horizontal Spacer""
+puis On   ""SELECTIONNE ENSEMBLE avec la SOURIS""   la   ""pushButton""   et la   ""Horizontal Spacer""
+puis on fait un ""CLIQUE DROITE AVEC LA SOURIS""
+puis on CHOISIT     ""Lay out""
+puis on CHOISIT     ""Lay out Horizontally""
+puis On   ""DESELECTIONNE avec la SOURIS""   la   ""pushButton""   et la   ""Horizontal Spacer""    en   """"CLIQUANT N'IMPORTE OÙ sur la Widget""""
+
+ETAPE 6 :    ALIGNER HORIZONTALEMENT   ""TOUS LES AUTRES OBJETS""    AVEC    ""Horizontal Spacer""
+
+ETAPE 7 :    ALIGNER VERTICALEMENT   ""TOUS LES AUTRES OBJETS""
+On   ""SELECTIONNE ENSEMBLE avec la SOURIS""   ""TOUS LES AUTRES OBJETS""   qui sont :
+-   ""label""   
+-   ""line edit"" 
+-   ""pushButton""
+puis on fait un ""CLIQUE DROITE AVEC LA SOURIS""
+puis on CHOISIT     ""Lay out""
+puis on CHOISIT     ""Lay Out in a Grid""
+
+RESULTAT OBTENU :
+On ""OBTIENT"" ALORS ""L'APPARITION d'un NOUVEAU OBJET"" nommé ""QGridLayout""
+Ce ""NOUVEAU OBJET"" nommé ""QGridLayout"" est COMPOSE DE L'ENEMBLE DES OBJETS qui ont été regroupés suivant :
+-   ""QPushButton""
+-   ""Spacer""
+-   ""Spacer""
+-   ""Spacer""
+-   ""QLineEdit""
+-   ""QLabel""
+
+ETAPE 8 :    On peut ""ETIRER VERS LE BAS"" le ""NOUVEAU OBJET"" nommé ""QGridLayout""
+
+ETAPE 9 :    On PLACE DES   ""Vertical Spacer""   en ""HAUT"" et en ""BAS""   du ""NOUVEAU OBJET"" nommé ""QGridLayout""
+puis on fait un ""CLIQUE DROITE AVEC LA SOURIS""
+puis on CHOISIT     ""Lay out""
+puis on CHOISIT     ""Lay Out in a Grid""
+
+
+RESULTAT OBTENU :
+On ""OBTIENT"" ALORS ""L'APPARITION d'un NOUVEAU OBJET"" nommé ""QGridLayout""
+Ce ""NOUVEAU OBJET"" nommé ""QGridLayout"" est COMPOSE DE L'ENEMBLE DES OBJETS qui ont été regroupés suivant :
+-   ""QPushButton""
+-   ""Spacer""
+-   ""Spacer""
+-   ""Spacer""
+-   ""QLineEdit""
+-   ""QLabel""
+
+ETAPE 10 :    TRANSFORMER LE   ""QGridLayout""   en ""QWidget""  
+
+puis on fait un ""CLIQUE DROITE AVEC LA SOURIS"" sur ce ""NOUVEAU OBJET"" nommé ""QGridLayout""
+puis on CHOISIT     ""Morph into""
+puis on CHOISIT     ""QWidget""
+
+
+RESULTAT OBTENU :
+On ""OBTIENT"" ALORS ""L'APPARITION d'un NOUVEAU OBJET"" nommé ""QWidget""
+
+
+
+REMARQUE TRES IMPORTANTE A FAIRE :     On peut également UTILISER D'AUTRES OBJETS comme      """""Table Widget"""""    
+
+
+
+C] ---transformer le """"INTERFACE"""" créée dans """"Qt Designer"""" en CODE """"PYTHON"""" :
+C] ---transformer le """"INTERFACE"""" créée dans """"Qt Designer"""" en CODE """"PYTHON"""" :
+C] ---transformer le """"INTERFACE"""" créée dans """"Qt Designer"""" en CODE """"PYTHON"""" :
+On   ENTRE   DANS LE DOSSIER   ui
+cd ui
+pyuic6 -o user.py user.ui 
+OU BIEN
+pyuic6 -x fichier.ui -o fichier.py									(user.ui = nom de la fichier creer)
+-apres modifier dans la user.ui
+
+
+
+
+
+
+
+
+
+
+
+
+
