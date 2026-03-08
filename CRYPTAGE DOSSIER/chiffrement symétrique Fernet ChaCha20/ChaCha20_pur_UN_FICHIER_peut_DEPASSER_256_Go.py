@@ -190,7 +190,7 @@ class LogicielCryptage(QWidget):
         super().__init__()
         
         # Configuration des paramètres de la fenêtre
-        self.setWindowTitle("SecureFolder - Streaming Edition") # Titre de la fenêtre
+        self.setWindowTitle("SecureFolder - Streaming Edition - Version 2") # Titre de la fenêtre
         self.resize(550, 480)                                   # Taille par défaut (largeur, hauteur)
         self.setMinimumSize(450, 400)                           # Taille minimum (impossible de réduire plus)
         
