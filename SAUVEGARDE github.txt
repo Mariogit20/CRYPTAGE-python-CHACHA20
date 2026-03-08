@@ -1,0 +1,67 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github23/CRYPTAGE-python-CHACHA20 (main)
+$ nano README.md
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github23/CRYPTAGE-python-CHACHA20 (main)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the nex
+t time Git touches it
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github23/CRYPTAGE-python-CHACHA20 (main)
+$ git commit -m "Ajout du README"
+Auto packing the repository for optimum performance.
+See "git help gc" for manual housekeeping.
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Checking connectivity: 8324, done.
+warning: There are too many unreachable loose objects; run 'git prune' to remove
+ them.
+[main b708ec6] Ajout du README
+ 1 file changed, 39 insertions(+), 1 deletion(-)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github23/CRYPTAGE-python-CHACHA20 (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.62 KiB | 1.63 MiB/s, done.
+Total 3 (delta 1), reused 2 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mariogit20/CRYPTAGE-python-CHACHA20.git
+   987a833..b708ec6  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github23/CRYPTAGE-python-CHACHA20 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github23/CRYPTAGE-python-CHACHA20 (main)
+$ git commit -m "Ajout"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github23/CRYPTAGE-python-CHACHA20 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github23/CRYPTAGE-python-CHACHA20 (main)
+$ git add .
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github23/CRYPTAGE-python-CHACHA20 (main)
+$ git commit -m "Ajout2"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github23/CRYPTAGE-python-CHACHA20 (main)
+$ git push
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github23/CRYPTAGE-python-CHACHA20 (main)
+$
