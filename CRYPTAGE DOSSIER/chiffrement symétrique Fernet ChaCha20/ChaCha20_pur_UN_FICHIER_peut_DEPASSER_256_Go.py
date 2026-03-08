@@ -443,3 +443,7 @@ if __name__ == "__main__":
     # app.exec() démarre la boucle d'événements qui maintient la fenêtre ouverte.
     # sys.exit() s'assure de fermer proprement Python quand on clique sur la croix rouge de la fenêtre.
     sys.exit(app.exec())
+    
+    
+    
+    
