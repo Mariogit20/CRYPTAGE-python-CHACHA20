@@ -1,6 +1,6 @@
-# CRYPTAGE-python-CHACHA20
+# CRYPTAGE-python-CHACHA20 - Version 2
 
-# 🔒 SecureFolder - Streaming Edition (ChaCha20)
+# 🔒 SecureFolder - Streaming Edition (ChaCha20) - Version 2
 
 Un logiciel de chiffrement de dossiers open-source, rapide et ultra-sécurisé, développé en Python avec une interface graphique **PyQt6**. 
 
